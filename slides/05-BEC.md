@@ -280,6 +280,15 @@ Most of the times, they even hide this emails. His objective is that the victim 
 - Threat intelligence is an important part of the investigative process-
 - BEC intrusions are typically opportunistic and attribution is difficult.
 
+## External confirmation
+
+
+- https://emailrep.io
+- https://email-checker.net
+- https://tools.emailhippo.com
+- https://hunter.io/email-verifier
+- https://trumail.io
+
 ## Threat intelligence
 
 https://en.wikipedia.org/wiki/Cyber_threat_intelligence
@@ -459,6 +468,9 @@ Google uses another DKIM signature that uses other headers. This is probably a s
     - Many email clients do alert if an Internet header is spoofed
 
 # References
+<!-- _class: lead -->
+
+---
 
 - [What is Business Email Compromise (BEC)? How Does it Work? ](https://www.tessian.com/blog/bec-business-email-compromise/), Tessian 2021
 - [Business Email Compromise](https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/business-email-compromise) FBI 
