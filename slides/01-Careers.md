@@ -1,12 +1,12 @@
 ---
-title: CybersecMNG - The careers in cybersecurity
+title: CybersecMNG - The cybersecurity careers
 marp: true
 paginate: true
 headingDivider: 2
+theme: marp-upc
 ---
 
 <style>
-@import url('https://github.com/Juanvvc/markdown-slides/raw/master/marp/themes/marp-upc.css');
 section.a-story ul li {
     list-style-type: none; text-align: center;
 }
@@ -18,7 +18,7 @@ section.vertical-bottom {
 # Cybersecurity Management
 <!-- _class: first-slide -->
 
-**The careers in cybersecurity**
+**The cybersecurity careers**
 
 Juan Vera - juan.vera@upc.edu
 
@@ -89,14 +89,12 @@ These are only some roles: preparing systems, filtering out data, monitoring, re
 
 ![bg right:45%](https://i2.wp.com/boingboing.net/wp-content/uploads/2011/08/gloves.jpg?w=970)
 
-## Anyone can buy and use ransomware
+## Ransomware-as-a-service
 <!-- _class: center -->
 
 ![center w:30em](images/BEC/bec.png)
 
 > https://www.upguard.com/blog/what-is-ransomware-as-a-service
-
-**Ransomware-as-a-service**
 
 <!--
 The bad guys have many different motivations: money is the most important motivation, but also stealing industrial secrets or political motivations, as in the previous video.
@@ -108,13 +106,19 @@ Being a criminal is not that hard, you only need money to buy the right tools. A
 - That means that many groups share the same tools and techniques, and they do not need a very deep technical knowledge
 -->
 
+---
+
+![center w:40em](https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/Fig1-RaaS-affiliate-model-3-1024x496.png)
+
+> https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/
+
 ## Advanced Persistent Threat Groups
 
 - APT groups try to steal data, disrupt operations or destroy infrastructure.
 - APT attackers pursue their objectives over months or years.
 - They adapt to cyber defenses and frequently retarget the same victim.
 
-![bg right](https://blogvaronis2.wpengine.com/wp-content/uploads/2020/02/apt-groups-ocean-kitten-997x1024.png)
+![bg right:35% h:100%](images/actors/mitten.png)
 
 > https://www.varonis.com/blog/apt-groups/
 > https://www.fireeye.com/current-threats/apt-groups.html
@@ -431,13 +435,13 @@ Technical knowledge is only a part of the skill set!
 
  ---
 
-![w:2em](https://pbs.twimg.com/profile_images/1493832011550797825/aYTTVBhf_400x400.jpg) [meg (@cybersecmeg)](https://twitter.com/cybersecmeg/status/1414680565563936772?ref_src=twsrc%5Etfw) 
+![w:2em](https://pbs.twimg.com/profile_images/1519115299257266178/p35fMoUZ_400x400.jpg) [meg (@cybersecmeg)](https://twitter.com/cybersecmeg/status/1414680565563936772?ref_src=twsrc%5Etfw) 
 i wish more cybersecurity professionals would realize they’re not just protecting data and assets - you’re protecting people’s jobs, livelihoods, and families. if your organization goes under because of an incident - who will remain employed when the company ceases to exist?
 (*Jul 12, 2021*)
 
 ---
 
-![w:2em](https://pbs.twimg.com/profile_images/1492911217773584386/ZXe0A_6F_400x400.jpg) [SwiftOnSecurity (@SwiftOnSecurity)](https://twitter.com/SwiftOnSecurity/status/1486115334868324355)
+![w:2em](https://pbs.twimg.com/profile_images/1538321181606035464/EjN9R9Jj_400x400.jpg) [SwiftOnSecurity (@SwiftOnSecurity)](https://twitter.com/SwiftOnSecurity/status/1486115334868324355)
 Posit: InfoSec is such a large field there are areas where past experience is uniquely valuable, areas you can jump right to from college, situations that demand the cool hand of a former retail worker, and areas you couldn't make me do even under threat of a metal rake to my car
 (*Jan 26, 2022*)
 

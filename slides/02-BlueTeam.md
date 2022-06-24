@@ -19,12 +19,10 @@ Juan Vera - juan.vera@upc.edu
 1. [A windows network](#3)
 1. [The Cyber Kill Chain](#7)
 1. [Defenses](#15)
-1. [Security Office Center](#28)
-1. [Security Information and Event Management](#36)
-2. [Use cases](#50)
-3. [The SOC analyst](#54)
-4. [Recommendations]()
-5. [References](#)
+1. [Security Office Center](#40)
+3. [The SOC analyst](#47)
+4. [Recommendations](#57)
+5. [References](#63)
 
 ---
 
@@ -258,9 +256,11 @@ Can we monitor this behaviour
 
 ## Sysmon
 
-- A Windows system service and device driver that must be installed explicetely
-- It remains resident across system reboots to monitor and log system activity to the Windows event log
-- It provides detailed information about process creations, network connections, and changes to file creation time.
+- A Windows system service and device driver for enhanced logs
+- Not by default: must be installed explicitly
+- Sysmon remains resident across system reboots to monitor and log system activity to the Windows event log
+- Sysmon provides detailed information about process creations, network connections, and changes to file creation time
+- Outputs wo windows event system (evtx)
 
 > https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
 > https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export.xml
@@ -301,8 +301,6 @@ Osquery exposes an OS as a relational database. This allows you to write SQL que
 - This is a lot of data!
 - Can we automate the process?
 
-During this session, we will check first the manual path. **Then**, we automate
-
 ![bg right:40%](https://i2.wp.com/livingandcoding.com/wp-content/uploads/2019/12/files-1614223_1280.jpg?resize=1118%2C400&ssl=1)
 
 ## How to protect a Network?
@@ -313,64 +311,9 @@ During this session, we will check first the manual path. **Then**, we automate
 
 ![bg right](https://cdn.comparitech.com/wp-content/uploads/2019/02/Ossec-dashboard-kibana.jpg)
 
-# Security Operations Center
-<!-- _class: lead -->
-
-## SOC
-
-A centralized team in a single organization that monitors the information technology environment for vulnerabilities, unauthorized activity, acceptable use/policy/procedure violations, intrusions into and out of the network, and provides direct support of the cyber incident response process.
-
-## SOC
-
-![center](images/SOC/SOC.jpg)
-
-## SOC Services
-
-Reactive:
-
-- Monitoring and alerts
-- Incident Response
-- Forensics / eDiscovery
-
-Proactive:
-
-- Threat Hunting
-- Health Monitoring
-
-![bg right:65% w:100%](https://www.nettitude.com/us/wp-content/uploads/sites/5/2019/11/NETT_SOCMONITOR_2019.png)
-
-## Trained personal
-
-Highly skilled people can produce more accurate and timely results with a moderate product than novices with an expensive toolset.
-
-![bg right](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/communications-intelligence-and-security/cyber-security/Airbus-CyberSecurity-SOC-1jpg.jpg?wid=1920&fit=fit,1&qlt=85,0)
-
-## Getting into the hunt
-
-Assume that there is a likely compromise, become detection oriented and proactively mine data looking for patterns of intrusion and misbehaviour.
-
-## Define metrics
-
-- Number of data sources
-- MTT close an alarm
-- Implemented Use Cases
-- number of not-reviewed alerts after 24 hours
-- ...
-
-## What makes good SOCs good
-
-[![center w:20em](images/SOC/twitter4.png)](https://twitter.com/chrissanders88/status/1450823790745821188)
-
-# Security Information And Event Management
-<!-- _class: lead -->
-
 ## SIEM
 
 A Security Information And Event Management (SIEM) solution supports threat detection, compliance and security incident management through the collection and analysis (both near real-time and historical) of security events, as well as a wide variety of other event and contextual data sources.
-
----
-
-![](https://cdn.comparitech.com/wp-content/uploads/2019/02/Diagram-SIEM-2.jpg)
 
 ---
 
@@ -444,32 +387,51 @@ Features:
 
 > [An Empirical Assessment of Endpoint Security Systems Against Advanced Persistent Threats Attack Vectors](https://arxiv.org/pdf/2108.10422.pdf) George Karantzas1 and Constantinos Patsakis, 2022. https://arxiv.org/pdf/2108.10422.pdf
 
-# Use Cases
+# Security Operations Center
 <!-- _class: lead -->
 
-## Definition
+## SOC
 
-A set of actions or steps which define the interactions between an actor, which can be a person, a system or a service, to a system, in order to achive an objective.
+A centralized team in a single organization that monitors the information technology environment for vulnerabilities, unauthorized activity, acceptable use/policy/procedure violations, intrusions into and out of the network, and provides direct support of the cyber incident response process.
 
-## "Top Ten"
+![center](images/SOC/SOC.jpg)
 
-- Priviledge Entity Monitoring
-- Brute Force
-- Authentication Anmalities
-- Session anomalities / Account anomalities
-- Data Exfiltration
-- Signature Matches
-- Service failures
-- Insider Threat
-- Log data failure
+## SOC Services
 
-## Documentation
+Reactive:
 
-- Input data
-- Actors involved
-- Alerts
-- Actions
-- Metrics
+- Monitoring and alerts
+- Incident Response
+- Forensics / eDiscovery
+
+Proactive:
+
+- Threat Hunting
+- Health Monitoring
+
+![bg right:65% w:100%](https://www.nettitude.com/us/wp-content/uploads/sites/5/2019/11/NETT_SOCMONITOR_2019.png)
+
+## Trained personal
+
+Highly skilled people can produce more accurate and timely results with a moderate product than novices with an expensive toolset.
+
+![bg right](https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/communications-intelligence-and-security/cyber-security/Airbus-CyberSecurity-SOC-1jpg.jpg?wid=1920&fit=fit,1&qlt=85,0)
+
+## Getting into the hunt
+
+Assume that there is a likely compromise, become detection oriented and proactively mine data looking for patterns of intrusion and misbehaviour.
+
+## Define metrics
+
+- Number of data sources
+- MTT close an alarm
+- Implemented Use Cases
+- number of not-reviewed alerts after 24 hours
+- ...
+
+## What makes good SOCs good
+
+[![center w:20em](images/SOC/twitter4.png)](https://twitter.com/chrissanders88/status/1450823790745821188)
 
 # The SOC analyst
 <!-- _class: lead -->
@@ -540,7 +502,11 @@ Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
 # Recommendations
 <!-- _class: lead -->
 
----
+## Where do I start?
+
+- MITRE ATT&CK® for Enterprise includes over 500 techniques and sub-techniques and the list grows with each release
+
+![center](https://miro.medium.com/max/1400/1*ec8P-A4OMcXcPIcwyB5ktQ.png)
 
 > https://medium.com/mitre-engenuity/where-to-begin-prioritizing-att-ck-techniques-c535b50983f4
 
@@ -560,8 +526,8 @@ https://twitter.com/bettersafetynet/status/1496496087741480960
 
 1. Watch your egress. Firewalls work both ways. Carefully monitor outbound traffic. DMZ servers RESPOND to external requests. Look for DMZ systems initiating outbound. This is what "phoning home" (aka C2) looks like.
     - you will have a handful of DMZ servers initiating outbound. File xfer systems, any mail server (you likely shouldn't be running your own). Some web services may also initiate outbound.
-1. Don't get too hung up on IP address blocks. Geo blocking has some advantages, but the only time Russian groups come from Russian IP space is when they want to rub it in. Start treating the entire internet as hostile... because it is.
-1. You 100% must know what is "normal" exes on your systems. App control (used to be call white listing) is no longer a "nice to have" it's IMO table stakes. Anyone who claims otherwise is giving dated & dangerous advice. Use native logging functions to know the apps that are running on systems.
+2. Don't get too hung up on IP address blocks. Geo blocking has some advantages, but the only time Russian groups come from Russian IP space is when they want to rub it in. Start treating the entire internet as hostile... because it is.
+3. You 100% must know what is "normal" exes on your systems. App control (used to be call white listing) is no longer a "nice to have" it's IMO table stakes. Anyone who claims otherwise is giving dated & dangerous advice. Use native logging functions to know the apps that are running on systems.
     - EDR
     - Windows SRUM. It has a 30 day rolling view of EVERY exe run
     - auditd or sysmon

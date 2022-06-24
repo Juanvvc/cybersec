@@ -49,12 +49,22 @@ Free and paid resources to learn DFIR
 - [@MalwareTechBlog](https://twitter.com/MalwareTechBlog)
 - [@bcrypt](https://twitter.com/bcrypt)
 - [@malwrhunterteam](https://twitter.com/malwrhunterteam)
-
-<div>
-
 - [@DerechodelaRed](https://twitter.com/DerechodelaRed)
 - [@CyberSecurityES](https://twitter.com/CybserSecurityES)
 - [@CCNCERT](https://twitter.com/CCNCERT)
 
-</div>
+## News
 
+- https://nakedsecurity.sophos.com/
+- https://threatpost.com/
+- https://www.microsoft.com/security/blog/
+- https://security.googleblog.com/
+- https://www.schneier.com/
+- https://www.darkreading.com/
+- https://www.eff.org/deeplinks
+- https://www.zdnet.com/blog/security/
+- https://krebsonsecurity.com/
+- https://blog.talosintelligence.com/
+- https://www.fireeye.com/blog/threat-research.html
+- https://www.cisa.gov/uscert/ncas/current-activity
+- https://www.cisecurity.org

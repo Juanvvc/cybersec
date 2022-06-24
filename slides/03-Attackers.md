@@ -32,7 +32,13 @@ Juan Vera - juan.vera@upc.edu
 
 These attacks tend to be related to each other (blended attacks)
 
-![bg left](https://support.forgetcomputers.com/hc/article_attachments/360017742891/malware.jpg)
+![bg left w:90%](images/attackers/toptenexpel.png)
+
+> https://expel.com/great-expeltations-2022/
+
+<!--
+The linked document is a great summary for the incidents in 2021 and 2022
+-->
 
 # Business model
 <!-- _class: lead -->
@@ -40,7 +46,7 @@ These attacks tend to be related to each other (blended attacks)
 ## What is your image of an attacker?
 <!-- _class: center -->
 
-![w:17em](https://ilarge.lisimg.com/image/7924409/740full-jurassic-park-(1993)-screenshot.jpg) ![w:19em](images/2022-03-12-21-12-44.png)
+![w:17em](https://ilarge.lisimg.com/image/7924409/740full-jurassic-park-(1993)-screenshot.jpg) ![w:19em](images/attackers/fraudsters.png)
 
 **Attackers are normal employers of an (evil) company**
 
@@ -127,6 +133,8 @@ These attacks tend to be related to each other (blended attacks)
 
  - the ransomware operator encrypting data and forcing the victim to pay a ransom to unlock it.
  -   ransomware operators encrypt and steal data to further coerce a victim into paying a ransom. If the victim doesn’t pay the ransom, the ransomware operators then leak the data on a leak site or dark web domain, with the majority of leak sites hosted on the dark web.
+
+---
 
  At least 16 different ransomware variants are now threatening to expose data or utilizing leak sites, and more variants will likely continue this trend.
 
@@ -427,6 +435,7 @@ Fíjate: de esta manera, un desarrollador de ransomware no se expone y es poco p
 ![bg right w:90%](https://below0day.com/wp-content/uploads/2022/03/cuvx.png)
 
 ## Structure
+<!-- _class: smaller-font -->
 
 - Conti maintains many of the same business units as a legitimate, small- to medium-sized enterprise, including a Human Resources department that is in charge of constantly interviewing potential new hires.
     - Coders: Programmers hired to write malicious code, integrate disparate technologies
@@ -441,6 +450,7 @@ Fíjate: de esta manera, un desarrollador de ransomware no se expone y es poco p
 > https://www.paloaltonetworks.com/blog/security-operations/conti-or-so-i-am-told/
 
 ## Workers
+<!-- _class: smaller-font -->
 
 - Fluctuated in size from 65 to more than 100 employees
 - Each Conti employee was assigned a specific 5-day workweek, and employee schedules were staggered so that some number of staff was always on hand 24/7 to address technical problems with the botnet, or to respond to ransom negotiations initiated by a victim organization.
@@ -454,12 +464,18 @@ Fíjate: de esta manera, un desarrollador de ransomware no se expone y es poco p
 
 
 ## Weapons
+<!-- _class: smaller-font -->
+
 
 - the gang primarily kept tabs on the victim bots infected with their malware via both the Trickbot and Emotet crimeware-as-a-service platforms, and that it employed dozens of people to continuously test, maintain and expand this infrastructure 24 hours a day, 7 days a week.
     - Conti members referred to Emotet as “Booz” or “Buza,” and it is evident from reading these chat logs that Buza had its own stable of more than 50 coders, and likely much of the same organizational structure as Conti.
 - budgeted several thousand dollars each month to pay for a slew of security and antivirus tools, both for continuous testing (to see how many products detected their malware as bad), but also for their own internal security.
     -  “Install EDR on every computer (for example, Sentinel, Cylance, CrowdStrike); set up more complex storage system; protect LSAS dump on all computers; have only 1 active accounts; install latest security updates; install firewall on all network.”
     - “When that kind of money and people from the street come in who have never seen that kind of money, how can you trust them 1,000%?”
+
+---
+<!-- _class: smaller-font -->
+
 -  Conti invested $60,000 in acquiring a valid license to Cobalt Strike
 - Conti’s Human Resources Department budgeted thousands of dollars each month toward employer subscriptions to numerous job-hunting websites
 - Internal R&D department
@@ -502,9 +518,9 @@ Check these links for additional details
 
 If you detect any of these commands, you are already screwed
 
+# Reconn
+<!-- _class: smaller-font -->
 
-
-## Reconn
 
 - Adfind
 - Rubeus, toolset for raw Kerberos interaction and abuses
