@@ -6,13 +6,13 @@ These sessions are not ordered in any way, and they are not designed as a comple
 
 ## Table of contents
 
-- [Presentation](index.html)
-- [A cybersecurity career](01-Careers.html)
-- [The attacker perspective](03-Attackers.html)
-- [Business Email Compromise](05-BEC.html)
-- [The Blue Team](02-BlueTeam.html)
-- [The Red Team](04-RedTeam.html)
-- [Incident Response](06-IR.html)
+- [Presentation](https://juanvvc.github.io/cybersec/index.html)
+- [A cybersecurity career](https://juanvvc.github.io/cybersec/01-Careers.html)
+- [The attacker perspective](https://juanvvc.github.io/cybersec/03-Attackers.html)
+- [Business Email Compromise](https://juanvvc.github.io/cybersec/05-BEC.html)
+- [The Blue Team](https://juanvvc.github.io/cybersec/02-BlueTeam.html)
+- [The Red Team](https://juanvvc.github.io/cybersec/04-RedTeam.html)
+- [Incident Response](https://juanvvc.github.io/cybersec/06-IR.html)
 
 You can "print to PDF" to have a PDF version of these slides.
 
