@@ -37,8 +37,7 @@ release: pdfs
 	cd $(OUT_DIR) && zip $(VERSION)-slides.zip *pdf && rm *.pdf
 
 htmls: build
-	$(MARP) -I $(IN_DIR) -o $(OUT_DIR) --no-config $(THEME_OPTS) --bespoke.progress true --html 
-	#--bespoke.transition
+	$(MARP) -I $(IN_DIR) -o $(OUT_DIR) --no-config $(THEME_OPTS) --bespoke.progress true --html --bespoke.transition
 
 clean:
 	/bin/rm -rf $(OUT_DIR)

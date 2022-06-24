@@ -1,18 +1,18 @@
 # Cybersecurity
 
-Some sessions of a course about introduction to Cybersecurity
+Some sessions of a course about Cybersecurity Management
 
 These sessions are not ordered in any way, and they are not designed as a complete course.
 
 ## Table of contents
 
+- [Presentation](index.html)
 - [A cybersecurity career](01-Careers.html)
 - [The attacker perspective](03-Attackers.html)
 - [Business Email Compromise](05-BEC.html)
 - [The Blue Team](02-BlueTeam.html)
 - [The Red Team](04-RedTeam.html)
 - [Incident Response](06-IR.html)
-- [Presentaion](UPC-Presentation.html)
 
 You can "print to PDF" to have a PDF version of these slides.
 

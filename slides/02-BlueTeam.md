@@ -14,14 +14,17 @@ SOC, SIEM and Threat Hunting
 Juan Vera - juan.vera@upc.edu
 
 
-# Contents
-<!-- _class: cool-list -->
+# Contents<!-- _class: cool-list -->
 
 1. [A windows network](#3)
 1. [The Cyber Kill Chain](#7)
-1. [Defenses](#12)
-1. [Security Office Center](#24)
-1. [Security Information and Event Management](#31)
+1. [Defenses](#15)
+1. [Security Office Center](#28)
+1. [Security Information and Event Management](#36)
+2. [Use cases](#50)
+3. [The SOC analyst](#54)
+4. [Recommendations]()
+5. [References](#)
 
 ---
 
@@ -30,9 +33,9 @@ Juan Vera - juan.vera@upc.edu
 > https://www.youtube.com/watch?v=ASsJKc6HCf8
 
 <!--
-In this meme, Hitler is a CISO during a red team exercise
+In this video, Hitler is a CISO (Chief Information Security Officer) during the aftermatch of a red team exercise
 
-There are lots of information in this video. Every sentence introduces an important concept for the blue team. Our goal is understanding all of these jokes.
+There are lots of information in this video. Every sentence introduces an important concept for the blue team. Our goal of this sessions is understanding all of these jokes.
 
 Transcript:
 
@@ -64,8 +67,6 @@ Attackers target Windows most than any other OS in the world
 
 ![bg](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22bd0bfb-fa07-4f15-8c92-f594645b87be/dcz1hom-2e43eac9-59f9-4084-b721-bd8d6f0582d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIyYmQwYmZiLWZhMDctNGYxNS04YzkyLWY1OTQ2NDViODdiZVwvZGN6MWhvbS0yZTQzZWFjOS01OWY5LTQwODQtYjcyMS1iZDhkNmYwNTgyZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.n45sDy0fZsY2kugbJHjNnp7HIEeBKnjHa5xG0sWJXSY)
 
-![](images/SOC/Network_Diagram-Rinith-780552.png)
-
 ---
 
 ![w:35em center](images/SOC/Network_Diagram-Rinith-780552.png)
@@ -96,12 +97,13 @@ The AD centralizes authentication and permissions
 -->
 
 ## Types of users
+<!-- _class: with-info -->
 
 - Local users: they use a single computer
-- Local administrators: admin a single computer
+- Local administrators: manage a single computer
 - SYSTEM: the kernel
 - Domain Users: they can use any computer
-- Domain Administrators: admin the AD
+- Domain Administrators: manage the AD
 
 The objective of the attackers: **become a domain admin**
 
@@ -145,7 +147,11 @@ The objective of the attackers: control a domain account
 
 ![bg right:60% h:35em](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/cyber/THE-CYBER-KILL-CHAIN-body.png.pc-adaptive.1920.medium.png)
 
+---
 
+https://attack.mitre.org/
+
+![center w:20em](images/mitre.png)
 
 ## Initial access
 
@@ -208,7 +214,13 @@ All systems are vulnerable
     - Windows: ?
 - RAM, filesystem...
 
-![bg right:40% width:80%](https://1xfsu31b52d33idlp13twtos-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/ACE_datasources_icon.svg)
+![bg right:40% width:80%](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f35244de8548f64/5e4c520ad2c9672988fc1986/windows-artifact-poster.jpg)
+
+> https://www.sans.org/blog/new-windows-forensics-evidence-of-poster-released/
+
+<!--
+The link takes to a SANS poster with lots of information about the artifacts you can check to learn about the activity on a system: opened files, applications... It is a wonderful resource for information, updated often
+-->
 
 ## Windows: Event Viewer
 
@@ -526,6 +538,11 @@ Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
 ![w:15em](images/SOC/meme-logs.jpg) ![w:15em](images/SOC/meme-siem.jpg)
 
 # Recommendations
+<!-- _class: lead -->
+
+---
+
+> https://medium.com/mitre-engenuity/where-to-begin-prioritizing-att-ck-techniques-c535b50983f4
 
 ---
 
@@ -575,6 +592,9 @@ But it's rare.
 Most orgs? Your exception list will fit on a single sheet of paper.
 
 # References
+<!-- _class: lead -->
+
+---
 
 - <https://www.varonis.com/blog/what-is-siem/>
 - <https://medium.com/bugbountywriteup/building-a-siem-combining-elk-wazuh-hids-and-elastalert-for-optimal-performance-f1706c2b73c6>
