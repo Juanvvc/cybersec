@@ -17,12 +17,17 @@ section.a-story blockquote {
 }
 </style>
 
+
 # Cybersecurity Management
 <!-- _class: first-slide -->
 
 **Red Team**
 
 Juan Vera - juan.vera@upc.edu
+
+# Contents
+<!-- _class: cool-list toc -->
+
 
 ## Cobalt Strike
 
@@ -48,3 +53,12 @@ Juan Vera - juan.vera@upc.edu
 [![](images/redteam/becoming-readteam.png)](https://www.youtube.com/watch?v=AkvjstCXpqg)
 
 > https://www.youtube.com/watch?v=AkvjstCXpqg
+
+# Hands on experience
+
+## WebGoat
+
+## Hack-the-box
+
+# Thanks!
+<!-- _class: last-slide -->

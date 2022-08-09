@@ -25,6 +25,115 @@ section.a-story blockquote {
 
 Juan Vera - juan.vera@upc.edu
 
+# Contents
+<!-- _class: cool-list toc -->
+
+1. [Bad guys](#3)
+1. [Types of attacks](#10)
+1. [Business model](#20)
+1. [Threat Intelligente](#35)
+1. [Tools and Techniques](#36)
+1. [Ransomware](#45)
+1. [Ransomware groups](#50)
+1. [Defense](#71)
+1. [Example: Babuk](#75)
+1. [References](#81)
+
+# Bad guys
+<!-- _class: lead white-logo -->
+
+![bg right:45%](https://i2.wp.com/boingboing.net/wp-content/uploads/2011/08/gloves.jpg?w=970)
+
+## Ransomware-as-a-service
+<!-- _class: center -->
+
+![center w:30em](images/BEC/bec.png)
+
+> https://www.upguard.com/blog/what-is-ransomware-as-a-service
+
+<!--
+The bad guys have many different motivations: money is the most important motivation, but also stealing industrial secrets or political motivations, as in the previous video.
+
+Being a criminal is not that hard, you only need money to buy the right tools. And they are not event too expensive
+
+- Malware / ransomware creators sell their tools in the black market. It is a completely professionalized business : they have 24/7 technical support from the developers and detailed manuals (playbooks)
+
+- That means that many groups share the same tools and techniques, and they do not need a very deep technical knowledge
+-->
+
+---
+
+![center w:40em](https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/Fig1-RaaS-affiliate-model-3-1024x496.png)
+
+> https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/
+
+## Advanced Persistent Threat Groups
+
+- APT groups try to steal data, disrupt operations or destroy infrastructure.
+- APT attackers pursue their objectives over months or years.
+- They adapt to cyber defenses and frequently retarget the same victim.
+
+![bg right:35% h:100%](images/actors/mitten.png)
+
+> https://www.varonis.com/blog/apt-groups/
+> https://www.fireeye.com/current-threats/apt-groups.html
+
+<!--
+Some of these groups are APT. They are focused during large periods of time on a specific victim and they are very well funded and organized.
+
+These groups are very well know and documented!
+-->
+
+---
+
+![bg left:40%](https://www.fbi.gov/@@dvpdffiles/9/b/9b0a5435190f4902a5d88e3b1c047659/normal/dump_1.gif)
+
+- APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations.
+- APT41 has been active since as early as 2012.
+- The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.
+
+> https://www.fbi.gov/wanted/cyber/apt-41-group
+> https://attack.mitre.org/groups/G0096/
+> https://www.fireeye.com/current-threats/apt-groups.html
+> https://en.wikipedia.org/wiki/Double_Dragon_(hacking_group)
+
+<!--
+This is just an example of one of these groups. Notice:
+
+- The group is perfectly identified
+- The group has been active for 10 years
+- They are suspected to be supported by the Chinese goverments
+- This is APT 41... and that implies that there are at least other 40  groups! Check the link to MITRE, they have the list of other groups and their methods and techniques
+-->
+
+## Ramsonware groups in July, 2021
+
+![center w:27em](images/BEC/ransomware-groups.png)
+
+> [Christiaan Beek in Twitter, 2021](https://twitter.com/ChristiaanBeek/status/1427569852357693440)
+
+<!--
+Do you notice something funny?
+
+No China, no Russia. These countries are suspected to offer "free haven" to cybercriminals, if they do not attack to companies in their countries
+
+Some ransomware quits without doing any harm if they detect the OS language/keyboard is Russian!
+
+-->
+
+## The bad guys are winning
+
+* There’s a (...) silent, invisible war. It’s fierce and continues to escalate
+* They are aggressive, hard-working, learning, inventing and focused on the goal of making money
+* They only have to be right once: a vulnerability, a missing patch, a badly secured system, a weak password...
+* The criminals are almost never caught
+
+> https://www.forbes.com/sites/davidblack/2021/05/26/cyber-security-heres-why-the-bad-guys-are-winning/
+> https://www.infosecurity-magazine.com/next-gen-infosec/cybercriminals-winning-fight/
+
+![bg right:40% w:100%](https://www.telemessage.com/wp-content/uploads/2017/03/Cartoon_1.jpg)
+
+
 # Types of attacks
 <!-- _class: lead -->
 

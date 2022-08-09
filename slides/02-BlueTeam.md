@@ -17,13 +17,14 @@ Juan Vera - juan.vera@upc.edu
 # Contents
 <!-- _class: cool-list toc -->
 
-1. [A Windows network](#4)
-1. [The Cyber Kill Chain](#9)
-1. [Defenses](#17)
-1. [Security Operations Center](#42)
-1. [The SOC analyst](#49)
-1. [Recommendations](#59)
-1. [References](#65)
+1. [A Windows network](#3)
+1. [The Cyber Kill Chain](#8)
+1. [Defenses](#16)
+1. [Security Operations Center](#41)
+1. [The SOC analyst](#48)
+1. [Recommendations](#58)
+1. [Hands on experience](#64)
+1. [References](#67)
 
 # A Windows network
 <!-- _class: lead -->
@@ -518,13 +519,13 @@ Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
 
 ---
 
-![w:3em](https://pbs.twimg.com/profile_images/135404902/Photo_44_400x400.jpg) Mick Douglas (@bettersafetynet)
+[Mick Douglas (@bettersafetynet)](https://twitter.com/bettersafetynet/status/1496496087741480960)
 
 *I've had 3 calls so far today (it's not even 10) about defending against Russian cyber ops. I'm tired of having the same call... so... here's what I've told everyone. This is the playbook you need... but it's not going to be what you think it will be. Ready? Lets go!*
 
 Feb 23, 2022
 
-https://twitter.com/bettersafetynet/status/1496496087741480960
+
 
 
 ---
@@ -562,6 +563,17 @@ Your hosts tell you how they're being used and abused. Start listening.  Prevent
 But it's rare. 
 
 Most orgs? Your exception list will fit on a single sheet of paper.
+
+# Hands on experience
+<!-- _class: lead -->
+
+## Traffic-analysis.net
+
+TBD
+
+## Build your own Lab
+
+TBD
 
 # References
 <!-- _class: lead -->

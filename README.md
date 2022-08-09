@@ -1,8 +1,8 @@
 # Cybersecurity
 
-Some sessions of a course about Cybersecurity Management
+Some sessions of an introductory course about Cybersecurity Management
 
-These sessions are not ordered in any way, and they are not designed as a complete course.
+These sessions are not ordered in any way, they are not designed as a complete course. The course at UPC includes lots od personal anecdotes, additional speakers and your own presentations.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ These sessions are not ordered in any way, and they are not designed as a comple
 
 You can "print to PDF" to have a PDF version of these slides.
 
-## Local download
+## Local content
 
 ```
 $ git clone git@github.com:juanvvc/cybersec.git
@@ -28,7 +28,9 @@ $ make pdfs
 
 # Presenter notes
 
-Press `p` to get to the presenter notes.
+Press `p` to get an external window with the presenter notes. Hopefully, you will find interesting information and additional explanations in the presenter notes.
+
+Many PDF readers (but not all of them) also show these presenter notes
 
 # License
 

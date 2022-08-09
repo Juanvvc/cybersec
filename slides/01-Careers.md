@@ -22,6 +22,16 @@ section.vertical-bottom {
 
 Juan Vera - juan.vera@upc.edu
 
+# Contents
+<!-- _class: cool-list toc -->
+
+1. [What is cybersecurity?](#3)
+1. [Cybersecurity domains and roles](#8)
+1. [A cybersecurity career](#21)
+
+# What is cybersecurity?
+<!-- _class: lead -->
+
 ---
 <!-- _class: center -->
 
@@ -32,11 +42,13 @@ So, you think computers are cool and that's why you want to work in Cybersecurit
 # What do you think cybersecurity is?
 
 - Setting up firewalls
+- Run up-to-date antivirus software
 - Using strong passwords
 - Encrypting communications
 - Protecting the privacy of the user
-* Actually, this is only the beginning
+- Be suspicious of unexpected emails
 
+This is just the beginning!
 
 > https://us-cert.cisa.gov/ncas/tips/ST04-001
 
@@ -47,14 +59,20 @@ So, you think computers are cool and that's why you want to work in Cybersecurit
 
 ![bg brightness:1.5](https://www.freeimageslive.co.uk/files/images011/beautiful_clouded_sky.jpg)
 
-<style>
+<style scoped>
 p {
     font-size: 150%;
     font-weight: 300%;
 }
 </style>
 
-**Cybersecurity is about making people, processes and systems better than they were before you get there!**
+**Cybersecurity is about making people, processes and systems better than they were before you get there**
+
+<!--
+These are more than good intentions. Notice: this definition does not include technical words. It talks first about people and processes, and then systems. It also talks about constant improvement and doing your best
+
+We will see during this session the many aspects of cybersec
+-->
 
 ---
 
@@ -77,8 +95,9 @@ li {
 > For this presentation, check only: 0:12, 0:35, 0:50, 1:08
 
 <!--
-On August 2021, apparently hacked videos of surveillance cameras in Iran’s Evin prison, in the capital Tehran, have confirmed many of the patterns of abusive treatment and violations of due process human rights groups have documented for decades. We are only interested in the events
-shown by the camera in the security office, minutes 0:00 to 1:30 in the linked video.
+On August 2021, some surveillance cameras in Iran’s Evin prison, in the capital Tehran, have apparently being hacked by a cyberactivist group.
+
+The videos show something very similar to an incident response event like the ones you are going to face in the near future. For this presentation, we are only interested in the events shown by the camera in the security office, minutes 0:00 to 1:30 in the linked video. Warning: there are disturbing images of violence after 1:30.
 
 - 0:12: This is a normal day in a security office center. Probably, this is going to be the entry job for many of you: monitoring ("SOC analysts level 1" is the technical term https://www.cybersecurity-professionals.com/jobs-1/SOC-Analyst-Tier-1 ). This is a surveillance room, but a cybsersecurity office is quite similar to this one: lots of screens showing details about your network and the actions that are happening in this moment. Notice:
     - For this to work, someone has already put in place the systems: firewalls, authentication, permissions... This is the security architect.    
@@ -90,114 +109,13 @@ shown by the camera in the security office, minutes 0:00 to 1:30 in the linked v
 These are only some roles: preparing systems, filtering out data, monitoring, responding to incidents... Even the attackers are another role that must be taken into consideration. Let's see these roles in more detail
 -->
 
-# Contents
-<!-- _class: cool-list toc -->
-
-1. [Bad guys](#7)
-1. [Good guys](#14)
-1. [A cybersecurity career](#25)
-
-# Bad guys
-<!-- _class: lead white-logo -->
-
-![bg right:45%](https://i2.wp.com/boingboing.net/wp-content/uploads/2011/08/gloves.jpg?w=970)
-
-## Ransomware-as-a-service
-<!-- _class: center -->
-
-![center w:30em](images/BEC/bec.png)
-
-> https://www.upguard.com/blog/what-is-ransomware-as-a-service
-
-<!--
-The bad guys have many different motivations: money is the most important motivation, but also stealing industrial secrets or political motivations, as in the previous video.
-
-Being a criminal is not that hard, you only need money to buy the right tools. And they are not event too expensive
-
-- Malware / ransomware creators sell their tools in the black market. It is a completely professionalized business : they have 24/7 technical support from the developers and detailed manuals (playbooks)
-
-- That means that many groups share the same tools and techniques, and they do not need a very deep technical knowledge
--->
-
----
-
-![center w:40em](https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/Fig1-RaaS-affiliate-model-3-1024x496.png)
-
-> https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/
-
-## Advanced Persistent Threat Groups
-
-- APT groups try to steal data, disrupt operations or destroy infrastructure.
-- APT attackers pursue their objectives over months or years.
-- They adapt to cyber defenses and frequently retarget the same victim.
-
-![bg right:35% h:100%](images/actors/mitten.png)
-
-> https://www.varonis.com/blog/apt-groups/
-> https://www.fireeye.com/current-threats/apt-groups.html
-
-<!--
-Some of these groups are APT. They are focused during large periods of time on a specific victim and they are very well funded and organized.
-
-These groups are very well know and documented!
--->
-
----
-
-![bg left:40%](https://www.fbi.gov/@@dvpdffiles/9/b/9b0a5435190f4902a5d88e3b1c047659/normal/dump_1.gif)
-
-- APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations.
-- APT41 has been active since as early as 2012.
-- The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.
-
-> https://www.fbi.gov/wanted/cyber/apt-41-group
-> https://attack.mitre.org/groups/G0096/
-> https://www.fireeye.com/current-threats/apt-groups.html
-> https://en.wikipedia.org/wiki/Double_Dragon_(hacking_group)
-
-<!--
-This is just an example of one of these groups. Notice:
-
-- The group is perfectly identified
-- The group has been active for 10 years
-- They are suspected to be supported by the Chinese goverments
-- This is APT 41... and that implies that there are at least other 40  groups! Check the link to MITRE, they have the list of other groups and their methods and techniques
--->
-
-## Ramsonware groups in July, 2021
-
-![center w:27em](images/BEC/ransomware-groups.png)
-
-> [Christiaan Beek in Twitter, 2021](https://twitter.com/ChristiaanBeek/status/1427569852357693440)
-
-<!--
-Do you notice something funny?
-
-No China, no Russia. These countries are suspected to offer "free haven" to cybercriminals, if they do not attack to companies in their countries
-
-Some ransomware quits without doing any harm if they detect the OS language/keyboard is Russian!
-
--->
-
-## The bad guys are winning
-
-* There’s a (...) silent, invisible war. It’s fierce and continues to escalate
-* They are aggressive, hard-working, learning, inventing and focused on the goal of making money
-* They only have to be right once: a vulnerability, a missing patch, a badly secured system, a weak password...
-* The criminals are almost never caught
-
-> https://www.forbes.com/sites/davidblack/2021/05/26/cyber-security-heres-why-the-bad-guys-are-winning/
-> https://www.infosecurity-magazine.com/next-gen-infosec/cybercriminals-winning-fight/
-
-![bg right:40% w:100%](https://www.telemessage.com/wp-content/uploads/2017/03/Cartoon_1.jpg)
-
-# Good guys
+# Cybersecurity domains and roles
 <!-- _class: lead -->
 
 ![bg left:30%](https://4.bp.blogspot.com/_zEu14PgjWqw/Scira1SKjnI/AAAAAAAAAEY/YB5HavzpxyI/s1600/kevin-mitnick4.jpg)
 
 ---
-<!-- _class: vertical-bottom -->
+<!-- _class: vertical-bottom no-logo -->
 
 <style scoped>
     blockquote a{
@@ -212,86 +130,98 @@ Some ransomware quits without doing any harm if they detect the OS language/keyb
 > https://www.linkedin.com/pulse/cybersecurity-domain-map-ver-30-henry-jiang/
 
 <!--
-There are a lot of different roles in cybersecrity. This is only an example:
-
-- defense, avoiding the bad guys to enter the premises
-- firefighters, fixing things when things go down
-- reactive, or forensic analysists. They act after a security incident
-- hacking, to find vulnerabilities, test the security of the system or learn about new things
-- management roles
+These are the different roles in the cybersecurity field. Each one of the colors is a general domain, and each of the bubbles a specialist. You will probably develop your career moving from bubble to bubble, and occasionaly from domain to domain.
 -->
 
+
 ---
+<!-- _class: no-logo -->
 ![bg](images/actors/cyberdomains2.svg)
+
+<!--
+These are the main domains in cybersecurity:
+
+- Defense, avoiding the bad guys to enter the premises
+- Firefighters, fixing things when things go down
+- Reactive, or forensic analysists. They act after a security incident
+- Hacking, to find vulnerabilities, test the security of the system or learn about new things
+- Engineers, to develop the security systems
+- Management roles
+-->
+
 
 ## Cybersecurity roles
 <!-- _class: cool-list -->
 
-1. *Security Architects*
+1. *Security engineers*
 1. *Blue Team*
 1. *Incident Responders*
 1. *Forensics Analysts*
 1. *Red team*
 1. *White team*
+   
+This is not an exhaustive list!
 
-<!--
-And, of course, being a trainer!
--->
-
-## Security architects
+## Security engineers/architect
 
 ![bg left:30%](https://lawkm.com/wp-content/uploads/2017/08/shutterstock_394918033.jpg)
 
 - Security **design**
-- Configure the systems: firewalls, EDRs...
-- Define the security infrastructure
+- Install/configure/maintain/update the systems: firewalls, EDRs...
 - Operate the cloud
-- DevSecOps
-- System administrators, programmers
+- DevSecOps, sysadmins
+- Threat modeling and vulnerability management
+- Usually, not an entry point: very technical role
 
 **Goal**: a secure system
 
 ## Blue Team
+<!-- _class: with-info -->
 
 ![bg left:30%](https://www.gannett-cdn.com/media/2018/05/22/DetroitFreeP/DetroitFreePress/636625890103757998-22966-Kimberly-Blackwell.JPG)
 
-- Security **operation**
+- Security **operation/analyst**
 - Filter logs, set alarms...
 - Identify bad behavior: monitoring
 - Define security policies and good practices: policy makers
-- Threat intelligence, they know current attacks
+- Other specialists: threat intelligence / analysts
+- Also: help desk
 
 **Goal**: defensive security
+
+**This is an entry point!**
 
 > https://csrc.nist.gov/glossary/term/Blue_Team
 
 <!-- 
 
-The video linked above showed the blue team in an enterprise.
-
 There are several "sub-roles" inside the blue team:
 
-- Security architects, configure firewalls
 - Security Office Center tier 1: monitor systems and respond to common security events
 - SOC tier 2: respond to exceptional security events
 - SOC tier 3: configure alarms, filter data...
+- Threat intelligence: learn about current attacks and check if your company has the defenses against them
+- Define alarms and playbooks
 
 They are usually the security department of a company, in the IT department, and they work on-premises.
 
 Large companies are starting to outsource the monitoring of the security systems,
 and the SOC (i.e., "the monitoring") is run by an external entity.
 
-We will have at least one session dedicated to the blue team in this course.
+Skills: reading, detailed-oriented, kwowledge about a security product. No coding required!
 -->
 
 ## Incident Responders
 
+- Something happened!
 - Identify affected systems
 - Entry points
 - Remediate
 - Eradicate
 - Negotiate with the attackers
 - Time is important!
+- Also: help desk
+- Not an entry point: highly skilled and experienced
 
 ![bg left:30%](https://c1.peakpx.com/wallpaper/76/787/715/training-portrait-firefighter-fire-wallpaper.jpg)
 
@@ -310,16 +240,19 @@ They must identify:
 
 Notice: when an incident responder acts, the security systems already failed. Firewalls, antiviruses... they are of little use. The tools and skills they use are different.
 
-The Incident Response team is nearly always externalized, outsourced to a specialized company.
+The Incident Response team is nearly always externalized, outsourced to a specialized company
+
+Skills: very good communication skills and cold blood
+
 -->
 
 ## Forensic Analysts
 
 - Investigate special security events
-- What happened?
+- What happened, in depth?
 - Can we prosecute the attackers?
-- What can we do to enhance the systems?
 - Time is not important
+- In Europe, they are usually independant consultants and not an entry point, or they work in law enforcement
 
 ![bg left:30%](https://upload.wikimedia.org/wikipedia/commons/d/d0/Forensic_Scene_Investigator_photographing_evidence.jpg)
 
@@ -342,15 +275,18 @@ Forensic analysts, specially if they must act as Expert Witness, are external to
 -->
 
 ## Red Team
+<!-- _class: with-info -->
 
 ![bg left:30%](https://mythologicalquarter.net/wp-content/uploads/2013/10/8589170182_ed4dd50bb8_b.jpg)
 
-- Red Team Exercice = "Fake and controlled attack" 
-- The Blues do not know when the Reds attack
-- Training for the Blues
-- Also: pentesting, vulnerability scan...
+- "Fake and controlled attacks" 
+- The Blue Team do not know when the Red Team attacks
+- Training for the Blue Team
+- Also: pentesters, vulnerability scanners...
 
-**Goal**: test the organization's detection and response capabilities
+**Goal**: test the organization's detection and response capabilities and detect problems before the bad guys
+
+**This is an entry point!**
 
 <!--
 most of the time, nothing happens. You need to have a good trained blue team, up to date with the last threats and vulnerabilities, and their procedures and tools must be checked regularly. You need false attacks to test the capabilities of your blue team.
@@ -363,6 +299,8 @@ The terms of the red team exercises are negotiated. For example, whether or not 
 
 The blue team is NOT aware that a red team was hired. They have to manage the incident as a real attack, if they are able to detect the attack
 
+Skills: hack-the-box, meterpreter, basic scripting...
+
 -->
 
 ## Managers and White Team
@@ -371,23 +309,49 @@ The blue team is NOT aware that a red team was hired. They have to manage the in
 
 - Chief information security officer (CISO)
 - Manage the Security department, external SOC...
-- Communicate breaches
+- Communicate breaches externaly and internaly
 - They know about red team exercises
 - Audits, security policies, response plans...
+- Compliance, legal, security awareness...
+- Definitely not an entry point
 
-**Goal**: manage the others
+**Goal**: cybersecurity governance
 
-> https://en.wikipedia.org/wiki/Chief_information_security_officer
 > https://csrc.nist.gov/glossary/term/White_Team
+
+## Other roles
+
+![bg left:30%](https://bakerstuart.com/wp-content/uploads/2016/04/chagin.jpg)
+
+- Teaching
+- Sales engineer
+- Identity management
+- Developer of cybersecurity solutions
+- Purple team: red + blue team
+- An attacker
+- ...
+
+---
+<!-- _class: center -->
+
+![](images/careers/20190112171520.png)
+
+<!--
+This is a typical organigram for the cybersecurity departments of a big company
+
+The CISO (Chief Information Security Officer) is the main responsible of the cybersec in an organization. It can report directly to the CEO (general manager of the company) or to the CIO (Chief Information Officer, he/she manages all other aspects of the information technologies) Check: https://blogs.cisco.com/security/should-the-ciso-report-to-the-cio
+
+Many companies cannot afford to have dedicated departments, and some of these are oursourced. For example, it is common outsourcing the Security Operations Center, the Incident Management and the Red Teams, specialy if cyber is not your core business.
+-->
 
 ---
 
-![center w:28em](images/actors/sans-careers.png)
+![center w:35em](images/actors/sans-careers.png)
 
 > https://www.sans.org/cybersecurity-careers/20-coolest-cyber-security-careers/
 
 <!--
-You will be a specialist in one of these roles, but your day to day probably involves different roles at different times. Also, during your career, your are going to jump from one role to another.
+You will be a specialist in one of these roles, but your day to day work probably involves different roles at different times. Also, while you develop your career, you are going to jump from one role to another.
 -->
 
 
@@ -497,13 +461,13 @@ Technical knowledge is only a part of the skill set!
 
  ---
 
-![w:2em](https://pbs.twimg.com/profile_images/1519115299257266178/p35fMoUZ_400x400.jpg) [meg (@cybersecmeg)](https://twitter.com/cybersecmeg/status/1414680565563936772?ref_src=twsrc%5Etfw) 
+[meg (@cybersecmeg)](https://twitter.com/cybersecmeg/status/1414680565563936772?ref_src=twsrc%5Etfw) 
 i wish more cybersecurity professionals would realize they’re not just protecting data and assets - you’re protecting people’s jobs, livelihoods, and families. if your organization goes under because of an incident - who will remain employed when the company ceases to exist?
 (*Jul 12, 2021*)
 
 ---
 
-![w:2em](https://pbs.twimg.com/profile_images/1538321181606035464/EjN9R9Jj_400x400.jpg) [SwiftOnSecurity (@SwiftOnSecurity)](https://twitter.com/SwiftOnSecurity/status/1486115334868324355)
+[SwiftOnSecurity (@SwiftOnSecurity)](https://twitter.com/SwiftOnSecurity/status/1486115334868324355)
 Posit: InfoSec is such a large field there are areas where past experience is uniquely valuable, areas you can jump right to from college, situations that demand the cool hand of a former retail worker, and areas you couldn't make me do even under threat of a metal rake to my car
 (*Jan 26, 2022*)
 
@@ -516,7 +480,6 @@ Posit: InfoSec is such a large field there are areas where past experience is un
 -->
 
 ## Burn-out syndrome
-<!-- _class: smaller-font -->
 
 Cybersec is very demanding:
 
@@ -530,10 +493,21 @@ Cybersec is very demanding:
 - Attacks are usually at night or during the weekends
 - This is a war and we are not winning
 
-**Take care of yourself**
 
 ![bg left:30%](https://www.securew2.com/wp-content/uploads/2020/03/how-to-prevent-workplace-burnout-on-your-team.png)
 
+
+## Take care of yourself
+
+- Use automation and reduce daily scanning
+- Take breaks away from your computer
+- Go outside often
+- Don't bite more than you can chew
+- Take a vacation
+- Seek professional help
+- Learn new tools and teach
+
+> https://www.securitymagazine.com/blogs/14-security-blog/post/93890-five-tips-to-avoid-cybersecurity-burnout
 > https://www.zdnet.com/article/cybersecurity-is-tough-work-so-beware-of-burnout/
 > https://www.securew2.com/blog/combating-burnout-in-cybersecurity
 
@@ -567,11 +541,11 @@ There are lots of things to do in cybersecurity and these sessions are just pres
 
 # References
 
-- [I Want to Work in Cybersecurity... Whatever That Means!](https://www.youtube.com/watch?v=hFgg0Xas4CI) - Ryan Kovar, SANS Summit 2021
+- [I Want to Work in Cybersecurity... Whatever That Means!](https://www.youtube.com/watch?v=hFgg0Xas4CI&list=PLtgaAEEmVe6AmhtkQA35LWWCag2hHlHqo) - Ryan Kovar, SANS Summit 2021
 - "Cybersecurity Career Master Plan", Gerald Auger, Jaclyn Scott, Jonathan Helmus, Kim Nguyen. Packt> 2021. ISBN 978-1-80107-356-1
 
 <!--
-The first reference is a SANS summit specialized in what to expect when you are starting a cybersecurity career.
+The first reference is a SANS summit specialized in what to expect when you are starting a cybersecurity career. Check the playlist: many sessions on the matter!
 
 The second reference is a commercial book. It is usually on sale in Humble Bundle.
 -->
