@@ -11,7 +11,7 @@ theme: marp-upc
 
 SOC, SIEM and Threat Hunting
 
-Juan Vera - juan.vera@upc.edu
+Juan Vera - juanvvc@gmail.com
 
 
 # Contents

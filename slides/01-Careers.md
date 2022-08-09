@@ -11,7 +11,7 @@ section.a-story ul li {
     list-style-type: none; text-align: center;
 }
 section.vertical-bottom {
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
 </style>
 
@@ -20,7 +20,7 @@ section.vertical-bottom {
 
 **The cybersecurity careers**
 
-Juan Vera - juan.vera@upc.edu
+Juan Vera - juanvvc@gmail.com
 
 # Contents
 <!-- _class: cool-list toc -->

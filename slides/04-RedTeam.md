@@ -23,7 +23,7 @@ section.a-story blockquote {
 
 **Red Team**
 
-Juan Vera - juan.vera@upc.edu
+Juan Vera - juanvvc@gmail.com
 
 # Contents
 <!-- _class: cool-list toc -->

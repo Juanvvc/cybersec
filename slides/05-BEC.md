@@ -23,7 +23,7 @@ section.a-story blockquote {
 
 **Business Email Compromise (BEC)**
 
-Juan Vera - juan.vera@upc.edu
+Juan Vera - juanvvc@gmail.com
 
 ---
 <!-- _class: a-story -->
