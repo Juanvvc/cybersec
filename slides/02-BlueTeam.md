@@ -121,6 +121,35 @@ The objective of the attackers: control a domain account
 # The Cyber Kill Chain
 <!-- _class: lead -->
 
+## Terminology
+
+- **Asset**: something in the environment that must be protected
+- **Vulnerability**: a weakness within your organization that can be exploited
+- **Risk**: the likelihood a threat was successful in breaching your network
+- **Threat**: anything that is trying to degrade, disrupt, or steal your asset
+
+<!--
+There are automatic tools to run some of these processes:
+
+- vulnerability scanner: nessus, qualys, sentinel... https://owasp.org/www-community/Vulnerability_Scanning_Tools
+- threat managements: threatq (IOC management)...
+- threat intelligence: blueliv, cybelangel...
+
+-->
+
+## Risk-based approach
+
+$$
+Risk = Threat \times Vulnerability
+$$
+
+Priorize actions based on **risk**:
+
+- Identify high risk threats and defense against them
+- Accept low risk threats and have a plan if they happened sometime
+
+**Risk assesment**: the practice of discovering, examining and priorizing cybersec risks that might occur in an organization business
+
 ## MITRE & The Cyber Kill Chain
 <!-- _class: smallest-font -->
 

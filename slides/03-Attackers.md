@@ -25,7 +25,31 @@ section.a-story blockquote {
 
 Juan Vera - juan.vera@upc.edu
 
-# Which security incidents do we see most often?
+# Types of attacks
+<!-- _class: lead -->
+
+A non-exhaustive list
+
+## Distributed Denial of service (DDoS)
+
+## Man in the middle
+
+## Phishing, spearphishing and business email compromise
+
+## Drive-by attack
+
+## Password attack
+
+## Web vulnerabilities
+
+- Cross-site scripting
+- SQL injection
+
+## Eavesdropping attack
+
+## Rogue software attack
+
+## Which security incidents do we see most often?
 
 - Ransomware attacks, data encryption and leaks
 - BEC, password phishing attacks, password-compromising malware
@@ -116,19 +140,6 @@ The linked document is a great summary for the incidents in 2021 and 2022
 - Russin speaking operators
 - Low techinicla skiils: RDP
 
-## Kill chain
-<!-- _class: smaller-font -->
-
-- Reconnaissance
-- Exploitation
-- C&C: sofware beacons might be deployed
-- Actions and objectives: extortion of any information collected. May involve contacting partners, employees to try topush for payment
-
-![bg right](images/Cyberattacks/THE-CYBER-KILL-CHAIN-body.png.pc-adaptive.1920.medium.png)
-
-> https://www.nbcnews.com/tech/security/ransomware-hackers-new-tactic-calling-directly-rcna6466
-> https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
-
 ## Objective: Double extortion
 
  - the ransomware operator encrypting data and forcing the victim to pay a ransom to unlock it.
@@ -191,7 +202,7 @@ Estos grupos tienen páginas en la dark web que son visitable con Tor o similare
 - Egregor Raas Affiliate Arrest (2/14/2021)
     - Egregor arose after the fall of Maze / REvil group
 
-# Sucesful campaigns
+# Sucessful campaigns
 
 - [Russian hackers breach U.S. government, targeting agencies, private companies](https://www.nbcnews.com/news/us-news/russian-hackers-breach-u-s-government-effort-aimed-agencies-private-n1251057) December 14, 2020
 - [SolarWinds hackers are at it again, targeting 150 organizations, Microsoft warns](https://www.nbcnews.com/tech/security/solarwinds-hackers-are-it-again-targeting-150-organizations-microsoft-warns-n1268893) May 2021
@@ -200,6 +211,11 @@ Estos grupos tienen páginas en la dark web que son visitable con Tor o similare
 The White House has implemented a number of tactics to try to reduce it, including coordinating with countries  such as Poland, South Korea and Ukraine to arrest and at times extradite alleged hackers and sanctioning the cryptocurrency companies that allegedly launder the money extorted. 
 
 > https://www.nbcnews.com/tech/security/biden-gets-praise-cybersecurity-ransomware-persistence-rcna12707 January 20, 2022
+
+# Threat Intelligente
+<!-- _class: lead -->
+
+TBD
 
 # Tools and Techniques
 <!-- _class: lead -->

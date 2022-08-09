@@ -42,6 +42,19 @@ So, you think computers are cool and that's why you want to work in Cybersecurit
 
 ![bg left:30%](images/SOC/SOC.jpg)
 
+---
+<!-- _class: center -->
+
+![bg brightness:1.5](https://www.freeimageslive.co.uk/files/images011/beautiful_clouded_sky.jpg)
+
+<style>
+p {
+    font-size: 150%;
+    font-weight: 300%;
+}
+</style>
+
+**Cybersecurity is about making people, processes and systems better than they were before you get there!**
 
 ---
 
@@ -78,7 +91,7 @@ These are only some roles: preparing systems, filtering out data, monitoring, re
 -->
 
 # Contents
-<!-- _class: cool-list -->
+<!-- _class: cool-list toc -->
 
 1. [Bad guys](#6)
 1. [Good guys](#12)
@@ -214,21 +227,39 @@ There are a lot of different roles in cybersecrity. This is only an example:
 ## Cybersecurity roles
 <!-- _class: cool-list -->
 
+1. *Security Architects*
 1. *Blue Team*
 1. *Incident Responders*
 1. *Forensics Analysts*
 1. *Red team*
 1. *White team*
 
+<!--
+And, of course, being a trainer!
+-->
+
+## Security architects
+
+![bg left:30%](https://lawkm.com/wp-content/uploads/2017/08/shutterstock_394918033.jpg)
+
+- Security **design**
+- Configure the systems: firewalls, EDRs...
+- Define the security infrastructure
+- Operate the cloud
+- DevSecOps
+- System administrators, programmers
+
+**Goal**: a secure system
+
 ## Blue Team
 
 ![bg left:30%](https://www.gannett-cdn.com/media/2018/05/22/DetroitFreeP/DetroitFreePress/636625890103757998-22966-Kimberly-Blackwell.JPG)
 
-- Configure security systems: architects
-- Filter data, set alarms...
+- Security **operation**
+- Filter logs, set alarms...
 - Identify bad behavior: monitoring
 - Define security policies and good practices: policy makers
-- Threat hunting
+- Threat intelligence, they know current attacks
 
 **Goal**: defensive security
 
@@ -334,7 +365,6 @@ The blue team is NOT aware that a red team was hired. They have to manage the in
 
 -->
 
-
 ## Managers and White Team
 
 ![bg left:30%](https://c.pxhere.com/images/08/bf/10bfc2d611e5b331070a4cfa8e0d-1444567.jpg!d)
@@ -365,12 +395,42 @@ You will be a specialist in one of these roles, but your day to day probably inv
 <!-- _class: lead -->
 
 ---
+<!-- _class: two-columns -->
+
+<div>
+
+### Pros
+
+- Flexible hours
+- Good salaries
+- Remote work
+- A large diversity of positions and specialties
+- Recruiters look for you
+- You can train yourself
+
+</div><div>
+
+### Cons
+
+- Entry-level has prerequisities: experience required
+- Business not always understand cyber
+- Change is rapid and never stops
+- Criminals don't take vacations or weekends
+- Serious passion required
+- Mental burnout
+- Jack of all trades and master of none
+
+</div>
+
+---
 
 ![center w:33em](images/actors/roles-pyramid.png)
 
 > https://www.cybersecuritydegrees.com/faq/prepare-career-cyber-security/
 
 ## Certifications
+
+**Don't expect master every subject**
 
 New threats, new tools, new techniques
 
@@ -410,6 +470,7 @@ OSCP|2,798|>1000 €
 > https://www.coursera.org/articles/popular-cybersecurity-certifications
 
 ## Cybersecurity skills
+<!-- _class: smaller-font with-info -->
 
 
 - Risk Assessment
@@ -417,12 +478,13 @@ OSCP|2,798|>1000 €
 - Splunk / QRadar / Elastic
 - Digital Forensics
 - Penetration Testing
-- Empathy
-- Collaboration
+- Team work and collaboration
 - Problem-solving
 - Research and learn new information
-- Customer service skills
--  Written communication and documentation
+- Customer service skills: empathy
+- Very effective communication
+- Technical writing skills
+- Research and independent learning
 
 ![bg right:40%](https://oercommons.s3.amazonaws.com/media/thumbnails/f3/98/f398f3ce263f4c4db63ec5b4084e6524.jpg)
 
@@ -487,6 +549,16 @@ Check, for example, all comments in this thread in twitter: https://twitter.com/
 There are lots of things to do in cybersecurity and these sessions are just presenting the huge oportunities to you.
 -->
 
+## Choose a career
+<!-- _class: cool-list -->
+
+1. *Find your passion*
+2. *Identify your strengths*
+3. *Create a list of dream jobs*
+4. *Create a list of companies*
+5. *Keep learning and exploring*
+6. *Jump between positions when necessary*
+
 ## Cybersecurity Companies operating in Catalonia
 
 [![center w:26em](images/actors/catalunya.png)](https://ciberseguretat.gencat.cat/es/detalls/noticia/La-Ciberseguretat-a-Catalunya-2020.-Informe-de-ACCIO-y-la-Agencia-de-Ciberseguretat-de-Catalunya)
@@ -496,6 +568,13 @@ There are lots of things to do in cybersecurity and these sessions are just pres
 # References
 
 - [I Want to Work in Cybersecurity... Whatever That Means!](https://www.youtube.com/watch?v=hFgg0Xas4CI) - Ryan Kovar, SANS Summit 2021
+- "Cybersecurity Career Master Plan", Gerald Auger, Jaclyn Scott, Jonathan Helmus, Kim Nguyen. Packt> 2021. ISBN 978-1-80107-356-1
+
+<!--
+The first reference is a SANS summit specialized in what to expect when you are starting a cybersecurity career.
+
+The second reference is a commercial book. It is usually on sale in Humble Bundle.
+-->
 
 # Thanks!
 <!-- _class: last-slide -->
