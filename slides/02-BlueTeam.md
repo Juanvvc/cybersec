@@ -14,39 +14,16 @@ SOC, SIEM and Threat Hunting
 Juan Vera - juan.vera@upc.edu
 
 
-# Contents<!-- _class: cool-list -->
+# Contents
+<!-- _class: cool-list toc -->
 
-1. [A windows network](#3)
-1. [The Cyber Kill Chain](#7)
-1. [Defenses](#15)
-1. [Security Office Center](#40)
-3. [The SOC analyst](#47)
-4. [Recommendations](#57)
-5. [References](#63)
-
----
-
-[![](images/SOC/hitler-ciso.png)](https://www.youtube.com/watch?v=ASsJKc6HCf8)
-
-> https://www.youtube.com/watch?v=ASsJKc6HCf8
-
-<!--
-In this video, Hitler is a CISO (Chief Information Security Officer) during the aftermatch of a red team exercise
-
-There are lots of information in this video. Every sentence introduces an important concept for the blue team. Our goal of this sessions is understanding all of these jokes.
-
-Transcript:
-
-- We have linked this activity to the Red Team: bunch of laptops and servers were connecting to a C2 server; initial access was gained from a phishing campagin; two users downloaded a malicious word document; which then dropped Cobal Strike
-- Ok, but our security tools stopped them before they did anything bad?
-- My CISO... they... they were able to get domain admin, enough to ransomware eveything
-- I only want Incident Response, Threat Intelligence and the SOC leads. The rest, get out.
-- This is a bloody joke! To get pwned by those red team wankers! Do  you have any idea how much money we spent on fancy tooling last year? I'm taking back your extra wide curved monitors! The new Macbooks are gone too! How could you allow this to happen? We did how many table top exercises last year, and each time you said we won!
-- My CISO, they managed to unhook the EDR
-- I don't care if they unbuttoned your favourite shirt!
-- My CISO, they were very advanced
-- This bloody EDR you made mu buy was supposed to be advanced! "Gartner Magic Quadrant what what" - my arse! You made me sit through how many vendor meetings, showing these staged simulations. "We stop this" and "we block that". For months and months we worked to get it deployed. Execs phoning ME when their torrents get blocked. I told the board no one could hack us now. And these Red wankers walk in with a macro in a spreadsheet. Fantastic! I used to enjoy this job. I woke up in the morning full of energy to take anything. I was an infosec influencer!  And what do I do now? Remedial action after remedial action given to me by kids not even half my age!
--->
+1. [A Windows network](#4)
+1. [The Cyber Kill Chain](#9)
+1. [Defenses](#17)
+1. [Security Operations Center](#42)
+1. [The SOC analyst](#49)
+1. [Recommendations](#59)
+1. [References](#65)
 
 # A Windows network
 <!-- _class: lead -->

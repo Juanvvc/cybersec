@@ -93,9 +93,9 @@ These are only some roles: preparing systems, filtering out data, monitoring, re
 # Contents
 <!-- _class: cool-list toc -->
 
-1. [Bad guys](#6)
-1. [Good guys](#12)
-1. [A cybersecurity career](#20)
+1. [Bad guys](#7)
+1. [Good guys](#14)
+1. [A cybersecurity career](#25)
 
 # Bad guys
 <!-- _class: lead white-logo -->
