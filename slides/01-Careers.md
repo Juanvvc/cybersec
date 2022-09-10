@@ -446,13 +446,15 @@ OSCP|2,798|>1000 €
 - Problem-solving
 - Research and learn new information
 - Customer service skills: empathy
-- Very effective communication
+- **Very effective communication**
 - Technical writing skills
 - Research and independent learning
 
 ![bg right:40%](https://oercommons.s3.amazonaws.com/media/thumbnails/f3/98/f398f3ce263f4c4db63ec5b4084e6524.jpg)
 
 > https://bootcamp.berkeley.edu/blog/cybersecurity-skills/
+> https://redcanary.com/blog/strong-communicators/
+> https://blog.notso.pro/2022-06-12-avoiding-cyber-nihilism/
 
 <!-- 
 

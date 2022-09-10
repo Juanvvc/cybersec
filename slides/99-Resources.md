@@ -68,3 +68,44 @@ Free and paid resources to learn DFIR
 - https://www.fireeye.com/blog/threat-research.html
 - https://www.cisa.gov/uscert/ncas/current-activity
 - https://www.cisecurity.org
+
+## RedTeam CTFs
+
+→ Tryhackme
+→ Hackthebox: mosttly free
+→ Pentester Lab
+→ tcm-security
+→ Vulnhub
+→ Offensive Security 
+→ Vulnmachines
+→ Portswigger Web Security Academy: free web apps
+→ Hacker101
+→ PicoCTF
+→ HackMyVm
+→ Try2hack
+→ Cybrary
+→ RangeForce
+→ Letsdefend
+→ vhackinglabs 
+→ Hacksec42 
+→ BugBountyHunt3r 
+→ CyberSecLabsUK 
+→ certifiedsecure 
+→ CTFTime
+→ 247CTF
+- WEbGoat
+- - https://www.root-me.org/
+
+## BlueTeam CTFs
+
+- https://www.sans.org/mlp/holiday-hack-challenge/
+- https://github.com/ine-labs/AWSGoat : cloud security
+- https://cyberdefenders.org/blueteam-ctf-challenges/
+- 
+
+## forensic CTFs
+
+- Corpora Digital
+- https://belkasoft.com/ctf
+- https://downloads.digitalcorpora.org/corpora/scenarios/magnet/
+- 
