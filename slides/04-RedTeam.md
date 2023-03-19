@@ -3,7 +3,7 @@ title: CybersecMNG - Red Team
 marp: true
 paginate: true
 headingDivider: 2
-theme: marp-upc
+theme: marp-base
 ---
 <style>
 section.a-story ul li {

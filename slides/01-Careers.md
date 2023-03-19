@@ -3,7 +3,7 @@ title: CybersecMNG - The cybersecurity careers
 marp: true
 paginate: true
 headingDivider: 2
-theme: marp-upc
+theme: marp-base
 ---
 
 <style>
@@ -18,7 +18,7 @@ section.vertical-bottom {
 # Cybersecurity Management
 <!-- _class: first-slide -->
 
-**The cybersecurity careers**
+**The cybersecurity career**
 
 Juan Vera - juanvvc@gmail.com
 

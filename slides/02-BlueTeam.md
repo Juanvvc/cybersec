@@ -3,7 +3,7 @@ title: SOC, SIEM and Threat Hunting
 marp: true
 paginate: true
 headingDivider: 2
-theme: marp-upc
+theme: marp-base
 ---
 
 # Cybersecurity Management
@@ -155,6 +155,8 @@ Priorize actions based on **risk**:
 ---
 
 https://attack.mitre.org/
+
+https://mitre-attack.github.io/attack-navigator/
 
 ![center w:20em](images/mitre.png)
 
