@@ -584,6 +584,7 @@ TBD
 
 - <https://www.varonis.com/blog/what-is-siem/>
 - <https://medium.com/bugbountywriteup/building-a-siem-combining-elk-wazuh-hids-and-elastalert-for-optimal-performance-f1706c2b73c6>
+- <https://github.com/A-poc/BlueTeam-Tools>
 
 # Thanks!
 <!-- _class: last-slide -->
