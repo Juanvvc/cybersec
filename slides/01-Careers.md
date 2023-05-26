@@ -42,17 +42,19 @@ So, you think computers are cool and that's why you want to work in Cybersecurit
 # What do you think cybersecurity is?
 
 - Setting up firewalls
-- Run up-to-date antivirus software
-- Using strong passwords
+- Update antivirus
+- Enforcing strong passwords
 - Encrypting communications
-- Protecting the privacy of the user
-- Be suspicious of unexpected emails
+- Protection of the user's privacy
+- Check suspicious emails
 
 This is just the beginning!
 
 > https://us-cert.cisa.gov/ncas/tips/ST04-001
 
 ![bg left:30%](images/SOC/SOC.jpg)
+
+<!-- The image on the left is a SOC: the security operations center in big companies -->
 
 ---
 <!-- _class: center -->
@@ -97,16 +99,18 @@ li {
 > For this presentation, check only: 0:12, 0:35, 0:50, 1:08
 
 <!--
+This is an example of an incident, and we will take advantage of this video to learn about the different roles in cybersec
+
 On August 2021, some surveillance cameras in Iran’s Evin prison, in the capital Tehran, have apparently being hacked by a cyberactivist group.
 
 The videos show something very similar to an incident response event like the ones you are going to face in the near future. For this presentation, we are only interested in the events shown by the camera in the security office, minutes 0:00 to 1:30 in the linked video. Warning: there are disturbing images of violence after 1:30.
 
-- 0:12: This is a normal day in a security office center. Probably, this is going to be the entry job for many of you: monitoring ("SOC analysts level 1" is the technical term https://www.cybersecurity-professionals.com/jobs-1/SOC-Analyst-Tier-1 ). This is a surveillance room, but a cybsersecurity office is quite similar to this one: lots of screens showing details about your network and the actions that are happening in this moment. Notice:
-    - For this to work, someone has already put in place the systems: firewalls, authentication, permissions... This is the security architect.    
-- 0:35: something is happening, but the 
+- 0:12: This is a normal day in a security office center. Probably, this is going to be the entry job for many of you: monitoring systems ("SOC analysts level 1" is the technical term https://www.cybersecurity-professionals.com/jobs-1/SOC-Analyst-Tier-1 ). This is a surveillance room, but a cybsersecurity office is quite similar to this one: lots of screens showing details about your network and the actions that are happening in this moment. Notice:
+- For this room to work, someone has already put in place the systems: firewalls, authentication, permissions... This is another role: the security architect. The security architect sets up the systems, but doesn't run them. An architect is a very skilled person with some years of experience
+- 0:35: something is happening, but the analyst is not yet aware.
     - The screens cannot show all that is happening at this moment. Data must be filtered, only relevant events have to be shown... this is a very careful process of filtering and prioritizing data and showing alarms is made by the "SOC analyst tier 3"
 - 0:50: something happened and the analyst is finally aware. He is also aware whatever is happening, it is beyond his skills. As a result, he escalates to the "tier 2".
-- 1:08 The tier 2 is a more trained / experimented team that acts when tier 1 is not enough and stat the manage the incident.
+- 1:08 The "tier 2" is a more trained / experimented team that acts when tier 1 is not enough and stat the manage the incident. In this case, they are assessing the communication. No actions are taken at this moment!
 
 These are only some roles: preparing systems, filtering out data, monitoring, responding to incidents... Even the attackers are another role that must be taken into consideration. Let's see these roles in more detail
 -->
@@ -217,12 +221,11 @@ Skills: reading, detailed-oriented, kwowledge about a security product. No codin
 
 - Something happened!
 - Identify affected systems
-- Entry points
+- How did the attackers enter the system?
 - Remediate
 - Eradicate
 - Negotiate with the attackers
 - Time is important!
-- Also: help desk
 - Not an entry point: highly skilled and experienced
 
 ![bg left:30%](https://c1.peakpx.com/wallpaper/76/787/715/training-portrait-firefighter-fire-wallpaper.jpg)
