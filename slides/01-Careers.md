@@ -57,7 +57,7 @@ This is just the beginning!
 ---
 <!-- _class: center -->
 
-![bg brightness:1.5](https://www.freeimageslive.co.uk/files/images011/beautiful_clouded_sky.jpg)
+![bg brightness:1.5](images/generic/bluesky.jpg)
 
 <style scoped>
 p {
@@ -72,6 +72,8 @@ p {
 These are more than good intentions. Notice: this definition does not include technical words. It talks first about people and processes, and then systems. It also talks about constant improvement and doing your best
 
 We will see during this session the many aspects of cybersec
+
+background: https://www.freeimageslive.co.uk/files/images011/beautiful_clouded_sky.jpg
 -->
 
 ---
@@ -321,7 +323,7 @@ Skills: hack-the-box, meterpreter, basic scripting...
 
 ## Other roles
 
-![bg left:30%](https://bakerstuart.com/wp-content/uploads/2016/04/chagin.jpg)
+![bg left:30%](images/careers/other-roles.jpg)
 
 - Teaching
 - Sales engineer
@@ -330,6 +332,10 @@ Skills: hack-the-box, meterpreter, basic scripting...
 - Purple team: red + blue team
 - An attacker
 - ...
+
+<!--
+background: https://bakerstuart.com/wp-content/uploads/2016/04/chagin.jpg
+-->
 
 ---
 <!-- _class: center -->
@@ -406,7 +412,7 @@ Courses take from weeks or months
 
 Some certifications expire and must be renewed
 
-![bg left:40%](https://sites.google.com/site/dlrgcfa/GCFA3.jpg)
+![bg left:40%](images/careers/gcfa.png)
 
 
 ---
