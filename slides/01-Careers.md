@@ -37,7 +37,7 @@ Juan Vera - juanvvc@gmail.com
 
 So, you think computers are cool and that's why you want to work in Cybersecurity
 
-![bg left:60%](https://3.bp.blogspot.com/-DDCe7b-0reg/UMMaglWVvOI/AAAAAAAADyM/Y7s2g8faH4E/s1600/Maurice-Moss.gif)
+![bg left:60%](images/careers/Maurice-Moss.gif)
 
 # What do you think cybersecurity is?
 
@@ -95,7 +95,7 @@ li {
 * ![w:30em center](images/actors/video3.png)
 * ![w:30em center](images/actors/video4.png)
 
-> Full video: https://www.youtube.com/watch?v=DfibXDEnMnk **Warning! Very disturbing images of violence and abuse after minute 1:30**
+> Full video: <https://www.youtube.com/watch?v=DfibXDEnMnk> **Warning! Very disturbing images of violence and abuse after minute 1:30**
 > For this presentation, check only: 0:12, 0:35, 0:50, 1:08
 
 <!--
@@ -118,7 +118,14 @@ These are only some roles: preparing systems, filtering out data, monitoring, re
 # Cybersecurity domains and roles
 <!-- _class: lead -->
 
-![bg left:30%](https://4.bp.blogspot.com/_zEu14PgjWqw/Scira1SKjnI/AAAAAAAAAEY/YB5HavzpxyI/s1600/kevin-mitnick4.jpg)
+![bg left:30%](images/careers/kevin-mitnick4.jpg)
+
+<!--
+(wikipedia)
+Kevin David Mitnick (August 6, 1963 – July 16, 2023) was an American computer security consultant, author, and convicted hacker. He is best known for his high-profile 1995 arrest and five years in prison for various computer and communications-related crimes. Mitnick's criminal activities, arrest, and trial, along with the associated journalism, were all controversial. Though Mitnick was convicted of copying software unlawfully, his supporters argue that his punishment was excessive and that many of the charges against him were fraudulent and not based on actual losses. After his release from prison, he ran his own security firm, Mitnick Security Consulting, LLC, and was also involved with other computer security businesses. 
+
+Shimomura, Tsutomo; Markoff, John (1996). Takedown: The Pursuit and Capture of Kevin Mitnick, America's Most Wanted Computer Outlaw - By the Man Who Did It. Hyperion. ISBN 978-0786862108.
+-->
 
 ---
 <!-- _class: vertical-bottom no-logo -->
@@ -170,7 +177,7 @@ This is not an exhaustive list!
 
 ## Security engineers/architect
 
-![bg left:30%](https://lawkm.com/wp-content/uploads/2017/08/shutterstock_394918033.jpg)
+![bg left:30%](images/careers/architect.jpg)
 
 - Security **design**
 - Install/configure/maintain/update the systems: firewalls, EDRs...
@@ -181,10 +188,14 @@ This is not an exhaustive list!
 
 **Goal**: a secure system
 
+<!--
+Photo: https://lawkm.com/wp-content/uploads/2017/08/shutterstock_394918033.jpg
+-->
+
 ## Blue Team
 <!-- _class: with-info -->
 
-![bg left:30%](https://www.gannett-cdn.com/media/2018/05/22/DetroitFreeP/DetroitFreePress/636625890103757998-22966-Kimberly-Blackwell.JPG)
+![bg left:30%](images/careers/policewoman.jpg)
 
 - Security **operation/analyst**
 - Filter logs, set alarms...
@@ -194,6 +205,10 @@ This is not an exhaustive list!
 - Also: help desk
 
 **Goal**: defensive security
+
+<!--
+Photo: https://www.gannett-cdn.com/media/2018/05/22/DetroitFreeP/DetroitFreePress/636625890103757998-22966-Kimberly-Blackwell.JPG
+-->
 
 **This is an entry point!**
 
@@ -228,7 +243,7 @@ Skills: reading, detailed-oriented, kwowledge about a security product. No codin
 - Time is important!
 - Not an entry point: highly skilled and experienced
 
-![bg left:30%](https://c1.peakpx.com/wallpaper/76/787/715/training-portrait-firefighter-fire-wallpaper.jpg)
+![bg left:30%](images/careers/firefighter.jpg)
 
 **Goal**: mitigate and remediate security breaches
 
@@ -248,6 +263,8 @@ Notice: when an incident responder acts, the security systems already failed. Fi
 The Incident Response team is nearly always externalized, outsourced to a specialized company
 
 Skills: very good communication skills and cold blood
+
+Photo: https://c1.peakpx.com/wallpaper/76/787/715/training-portrait-firefighter-fire-wallpaper.jpg
 
 -->
 
@@ -282,7 +299,7 @@ Forensic analysts, specially if they must act as Expert Witness, are external to
 ## Red Team
 <!-- _class: with-info -->
 
-![bg left:30%](https://mythologicalquarter.net/wp-content/uploads/2013/10/8589170182_ed4dd50bb8_b.jpg)
+![bg left:30%](images/careers/readteamers.jpg)
 
 - "Fake and controlled attacks" 
 - The Blue Team do not know when the Red Team attacks
@@ -306,11 +323,13 @@ The blue team is NOT aware that a red team was hired. They have to manage the in
 
 Skills: hack-the-box, meterpreter, basic scripting...
 
+Photo: https://mythologicalquarter.net/wp-content/uploads/2013/10/8589170182_ed4dd50bb8_b.jpg
+
 -->
 
-## Managers and White Team
+## Managers and security officers
 
-![bg left:30%](https://c.pxhere.com/images/08/bf/10bfc2d611e5b331070a4cfa8e0d-1444567.jpg!d)
+![bg left:30%](images/careers/whiteteam.jpg)
 
 - Chief information security officer (CISO)
 - Manage the Security department, external SOC...
@@ -323,6 +342,9 @@ Skills: hack-the-box, meterpreter, basic scripting...
 **Goal**: cybersecurity governance
 
 > https://csrc.nist.gov/glossary/term/White_Team
+<!--
+Photo: https://c.pxhere.com/images/08/bf/10bfc2d611e5b331070a4cfa8e0d-1444567.jpg!d
+-->
 
 ## Other roles
 
@@ -372,7 +394,7 @@ You will be a specialist in one of these roles, but your day to day work probabl
 
 <div>
 
-### Pros
+**Pros**
 
 - Flexible hours
 - Good salaries
@@ -383,7 +405,7 @@ You will be a specialist in one of these roles, but your day to day work probabl
 
 </div><div>
 
-### Cons
+**Cons**
 
 - Entry-level has prerequisities: experience required
 - Business not always understand cyber
@@ -425,7 +447,7 @@ Some certifications expire and must be renewed
 > https://pauljerimy.com/security-certification-roadmap/
 
 ---
-<!-- _class: smallest-font -->
+<!-- _class: smaller-font -->
 
 Certification|LinkedIn|Price
 --|--|--
@@ -443,11 +465,10 @@ OSCP|2,798|>1000 €
 > https://www.coursera.org/articles/popular-cybersecurity-certifications
 
 ## Cybersecurity skills
-<!-- _class: smaller-font with-info -->
+<!-- _class: smaller-font with-warning -->
 
 
 - Risk Assessment
-- Linux / Windows server Administration
 - Splunk / QRadar / Elastic
 - Digital Forensics
 - Penetration Testing
@@ -459,7 +480,9 @@ OSCP|2,798|>1000 €
 - Technical writing skills
 - Research and independent learning
 
-![bg right:40%](https://oercommons.s3.amazonaws.com/media/thumbnails/f3/98/f398f3ce263f4c4db63ec5b4084e6524.jpg)
+Soft skills are as important than technical skills!
+
+![bg right:40%](images/careers/teamwork.jpg)
 
 > https://bootcamp.berkeley.edu/blog/cybersecurity-skills/
 > https://redcanary.com/blog/strong-communicators/
@@ -497,15 +520,28 @@ Cybersec is very demanding:
 - Dealing with attackers
 - Dealing with clients
 - Dealing with IT
-- New techniques every week
-- New vulnerabilities every week
-- Tons of different tools
+- New techniques and vuls every week
+- Tons of different tools to learn
 - Up to date information is not always accesible
 - Attacks are usually at night or during the weekends
 - This is a war and we are not winning
 
+![bg left:30%](images/careers/burnout.jpg)
 
-![bg left:30%](https://www.securew2.com/wp-content/uploads/2020/03/how-to-prevent-workplace-burnout-on-your-team.png)
+> https://www.securitymagazine.com/blogs/14-security-blog/post/93890-five-tips-to-avoid-cybersecurity-burnout
+> https://www.zdnet.com/article/cybersecurity-is-tough-work-so-beware-of-burnout/
+> https://www.securew2.com/blog/combating-burnout-in-cybersecurity
+
+<!--
+Image: https://www.securew2.com/wp-content/uploads/2020/03/how-to-prevent-workplace-burnout-on-your-team.png
+-->
+
+## Imposter syndrome
+
+![center w:25em](images/careers/imposter.png)
+
+> https://www.defeatingepilepsy.org/living-with-epilepsy-series/imposter-syndrome/
+> https://news.wecyberup.org/cy-says-blog/overcoming-imposter-syndrome-in-cybersecurity
 
 
 ## Take care of yourself
@@ -517,10 +553,6 @@ Cybersec is very demanding:
 - Take a vacation
 - Seek professional help
 - Learn new tools and teach
-
-> https://www.securitymagazine.com/blogs/14-security-blog/post/93890-five-tips-to-avoid-cybersecurity-burnout
-> https://www.zdnet.com/article/cybersecurity-is-tough-work-so-beware-of-burnout/
-> https://www.securew2.com/blog/combating-burnout-in-cybersecurity
 
 <!--
 Current cybersecurity is a complex and huge field. You are not expected to know every small detail about all systems or every possible technique, not only because the unfathomable amount of information but also because this knowledge will be outdated in months. Aiming to complete knowledge will be a source of stress and frustration. Please, check the links in the first session or search for "occupational burnout syndrome", "SOC analyst burnout", and "impostor syndrome". I truly believe that learning about these syndromes is going to be very useful for you or for the people you will lead in the future.
