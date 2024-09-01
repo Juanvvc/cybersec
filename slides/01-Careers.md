@@ -390,32 +390,30 @@ You will be a specialist in one of these roles, but your day to day work probabl
 <!-- _class: lead -->
 
 ---
-<!-- _class: two-columns -->
+<!-- _class: two-columns-list -->
 
-<div>
+<style scoped>
+    ol { list-style-type: none;}
+    ol ul {margin-top: 1em;}
+    li li {width: 95%; margin-left: -1em;}
+</style>
 
-**Pros**
+1. **Pros**:
+    - Flexible hours
+    - Good salaries
+    - Remote work
+    - A large diversity of positions and specialties
+    - Recruiters look for you
+    - You can train yourself
 
-- Flexible hours
-- Good salaries
-- Remote work
-- A large diversity of positions and specialties
-- Recruiters look for you
-- You can train yourself
-
-</div><div>
-
-**Cons**
-
-- Entry-level has prerequisities: experience required
-- Business not always understand cyber
-- Change is rapid and never stops
-- Criminals don't take vacations or weekends
-- Serious passion required
-- Mental burnout
-- Jack of all trades and master of none
-
-</div>
+1. **Cons**:
+    - Entry-level has prerequisities: experience required
+    - Business not always understand cyber
+    - Change is rapid and never stops
+    - Criminals don't take vacations or weekends
+    - Serious passion required
+    - Mental burnout
+    - Jack of all trades and master of none
 
 ---
 

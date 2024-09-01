@@ -20,21 +20,19 @@ section.a-story blockquote {
 }
 </style>
 
-# Cybersecurity Management
+# Business Email Compromise
 <!-- _class: first-slide -->
 
-**Business Email Compromise (BEC)**
-
-Juan Vera - juanvvc@gmail.com
+Juan Vera del Campo - <juanvvc@gmail.com>
 
 # Contents
-<!-- _class: cool-list with-warning toc -->
+<!-- _class: cool-list toc -->
 
-1. [Business Email Compromise (BEC)](#3)
-1. [Types of Business Email Compromise (BEC)](#10)
-1. [Investigating a BEC](#20)
-1. [Prevention](#28)
-1. [References](#45)
+1. [Business Email Compromise (BEC)](#4)
+1. [Types of Business Email Compromise (BEC)](#13)
+1. [Investigating a BEC](#22)
+1. [Prevention](#31)
+1. [References](#50)
 
 # Business Email Compromise (BEC)
 <!-- _class: lead -->
@@ -45,19 +43,20 @@ Juan Vera - juanvvc@gmail.com
 ![bg left:40%](images/generic/pexels-pixabay-38533.jpg)
 
 - You work for the finance department of a big company (100MM EUR)
-- Your work involves transferring large amounts of money
-- One day, you receive a phone call from a lawyer
+- Your job involves transferring large amounts of money
+- One day, you receive a phone call from an attorney
 
-> Note: background stock images from pexels: https://www.pexels.com/
+<!-- background: -->
+
 
 ---
 <!-- _class: a-story -->
 
 ![bg left:40%](images/generic/pexels-august-de-richelieu-4427610.jpg)
 
-- You can google her name, she is involved in HUGE international operations
+- You can google her name, she is involved in very important international operations
 - She knows what she is talking about
-- "Your company is in the middle of an important and confidential operation. We need your help. The CEO will contact you, please check the email"
+- "Your company is in the middle of an urgen and confidential operation. We need your help. Your CEO will contact you, please check the email"
 
 ---
 <!-- _class: a-story -->
@@ -68,7 +67,7 @@ Dear employeer,
 
 We are in the middle of a very important finantial operation to acquire one of our competitors. It is of the upmost importance that this operation remains confidential until it can be safely announced.
 
-I will be busy with the details. Please, get in touch with the important lawyer (in copy of this email). Keep me in the email chain.
+I will be busy with the details. Please, get in touch with *important-lawyer* (in copy of this email). Keep me in the email loop.
 
 I hope you undestand the confidentiality and urgency of this operation.
 
@@ -80,10 +79,10 @@ Your boss
 ![bg left:40%](images/generic/pexels-energepiccom-175045.jpg)
 
 - The important lawyer sends you a document, which includes a transfer order for 4M€
-* The order is signed by your boss
-* You transfer the money
-* ...
-* A couple of days later, your boss calls you about a unplanned money transfer you made to some unregistered location 
+- The order is signed by your boss
+- You transfer the money
+- ...
+- A couple of days later, your boss calls you about a unauthorized money transfer you made to some unregistered location 
 
 ---
 
@@ -96,6 +95,19 @@ Do you believe you would never fall for this?
 * [460,242 euro invoice due to pay to the Bilbao Club](https://www.majorcadailybulletin.com/news/local/2021/12/10/94245/mallorca-crime-alleged-ceo-scam-spain.html), 2021
 * [Social engineering. CEO fraud of 9 million euros in the phishing scam to the biopharmaceutical company Zendal](https://kymatio.com/en/social-engineering-ceo-fraud-of-9-million-euros-in-the-phishing-scam-to-the-biopharmaceutical-company-zendal/), 2020.
 * Most of them are covered up by the companies and never hit the news
+
+---
+
+![center w:40em](images/BEC/stats2024-1.png)
+
+---
+<!-- _class: with-warning -->
+
+![center w:35em](images/BEC/stats2024-2.png)
+
+If you work for a large company, you are receiving BEC attacks
+
+> https://abnormalsecurity.com/blog/bec-vec-attacks
 
 ---
 
@@ -118,9 +130,10 @@ There is movie about his life: Je Compte sur Vous
 
 - **The Bogus Invoice Scheme**: attackers pretend to be suppliers requesting fund transfers for payments to an account owned by fraudsters
 - **CEO Fraud**: Attackers pose as the company CEO or any executive and send an email to employees in finance, requesting them to transfer money to the account they control
-- **Account Compromise**: An executive or employee’s email account is hacked and used to request invoice payments to vendors listed in their email contacts
+- **Account Compromise**: An executive or employee's email account is hacked and used to request invoice payments to vendors listed in their email contacts
 - **Attorney Impersonation**: Attackers pretend to be a lawyer or someone from the law firm supposedly in charge of crucial and confidential matters
-- **Data Theft**: Employees in HR and book-keeping are targeted to obtain personally identifiable information (PII) or tax statements of employees and executives. Such data can be used for future attacks
+- **Data Theft**: Employees in HR and book-keeping are targeted to obtain personally identifiable information (PII) or tax statements of employees and executives
+- **Send me the money**: Attackers pretend to be an employee that just changed the bank account, and request the next payment to be done in the new bank account
 
 > https://www.trendmicro.com/vinfo/us/security/definition/business-email-compromise-(bec)
 
@@ -129,6 +142,32 @@ There is movie about his life: Je Compte sur Vous
 - Often, they impersonate CEO or any executive authorized to do wire transfers
 - Some of the sample email messages have subjects containing words such as request, payment, transfer, and urgent, among others
 -->
+
+## BEC process
+
+- The attacker impersonates a party sending a series of spoofed emails
+    - Usually implies previous compromise to gain intelligence
+- The first email may be from a legitimate **email address**
+    - ... but not necessarily a legitimate **email server** 
+- `Reply-to` is changed
+- Addresses similar to real ones to distinguish themselves:
+    - `worker@bigconnpany.com` instead of `worker@bigcompany.com`
+    - `worker@bigcompany.us` instead of `worker@bigcompany.com`
+    - `goodworker@bigcompany.com` instead of `good.worker@bigcompany.com`
+
+<!--
+
+Question: this only work in a very precise moment: near the end of the service, when billing is about to be exchanged and trust is already built between the two parties. How does the attacker now about the perfect moment?
+
+- Infiltration
+- Luck
+- Assistance from an insider
+- Patience
+
+If the attacker infiltrates the infrastructure, most probably, all real emails between the two parties are going to "disappear". Check for automatic mail rules!. Beware: the compromised infrastructure maybe the victim's infrastructure or the other end of the communication!
+
+-->
+
 
 ## Mail in the middle
 
@@ -147,38 +186,12 @@ Objective: get an "email thread" where the other party is not involved
 Beware: The attacker may impersonate several people: several accounts in CC, from several people...
 -->
 
-## BEC process
-
-- The attacker impersonates a party sending a series of spoofed emails
-    - Usually implies previous compromise to gain intelligence
-- The first email may be from a legitimate **address**
-    - ... but not necessarily a legitimate **server** (check your email client warnings!)
-- `Reply-to` is changed
-- Addresses similar to real ones to distinguish themselves:
-    - `worker@bigconnpany.com` instead of `worker@bigcompany.com`
-    - `worker@bigcompany.us` instead of `worker@bigcompany.com`
-    - `goodworker@bigcompany.com` instead of `good.worker@bigcompany.com`
-
-<!--
-
-Question: this only work in a very precise moment: near the end of the service, when billing is about to be exchanged and trust is already built between the two parties. How does the attacker now about the perfect moment?
-
-- Infiltration
-- Luck
-- An insider
-- Patient
-
-The three possibilities are real
-
-If the attacker infiltrates the infrastructure, ost probably, all real emails between the two parties are going to "disappear". Check for automatic mail rules!. Beware: the infiltrated infrastructure maybe the victim's infrastructure or the other end of the communication!
--->
-
 ---
 
 ![center w:28em](images/BEC/bec2.png)
 
 <!--
-Most communications are transparently passed fro on channel to the other: you won't find anything strange in the communication apart from the fake address
+Most communications are transparently passed from one channel to the other: you won't find anything strange in the communication apart from the fake address
 
 The attacker intervenes when billing information is exchanged: in this moment, he/she presents her/his bank account
 -->
@@ -193,9 +206,7 @@ This is another type of this fraud. In this case, all mails are fake. There is n
 
 ---
 
-![center](images/BEC/bec5.png)
-
-## Some RED flags
+![bg right w:100%](images/BEC/bec5.png)
 
 The CEO needs something from me!
 
@@ -215,7 +226,8 @@ Some acting is usually involved. Someone might call you!
 
 ![center](images/BEC/bec6.png)
 
-Beware: these fake extortions **MAY** include personal information collected from public sources!
+- These fake extortions may include personal information collected from public sources!
+- The sender could be your own account to "prove" it as hacked
 
 # Investigating a BEC
 <!-- _class: lead -->
@@ -231,19 +243,27 @@ Beware: these fake extortions **MAY** include personal information collected fro
 
 ## Objectives of the investigation
 
+- Are we compromised, or is it the other side of the communications?
 - When did the intrusion begin?
-- How long did the threat actor maintain access? Is the actor still inside?
-- Is there someone internal involved? 
+- How long did the threat actor maintain access?
+- What did the threat actor learned?
+- Is the actor still inside?
+- Is someone internal involved? 
 - How to prevent future attacks?
-- Insurance: did someone do something wrong?
+- Insurance: how is at fault?
 
 > These are only an introduction for this presentation. Check: https://raw.githubusercontent.com/PwC-IR/Business-Email-Compromise-Guide/main/PwC-Business_Email_Compromise-Guide.pdf
+
+![bg left:40%](images/generic/pexels-photo-5428832.webp)
+
+<!-- backpground: https://www.pexels.com/photo/question-marks-on-paper-crafts-5428832/ Leeloo the first, free to use-->
 
 ---
 
 [![](images/BEC/trendmicro.png)](https://www.youtube.com/watch?v=k0eECA2vwjQ)
 
 ## Opportunistic attacks
+<!-- _class: with-warning -->
 
 The attackers know exactly when to attack. They know...
 
@@ -258,15 +278,24 @@ How did the attacker know it was the right moment?
 
 A BEC attack usually begins as a phishing attack, and inboxes are controlled since long before the detection
 
+## Identifying inbox compromise
+
+- Check for unexpected Automatic Forwarding rules
+- Identifying suspicious login activity
+- Permission changes on existing or newly created accounts
+- Assessing which emails or data has been accessed and/or ex-filtrated is critical for  determining the impact on an organization
+- Threat intelligence is an important part of the investigative process
+
 ## Control of the inbox
 
 Email Collection : https://attack.mitre.org/techniques/T1114/
 
 1. Identify accounts that could have been under the control of the attackers
-1. Identify **dates**
+1. Identify **time period of the compromise**
 1. **Any automatic rules: forward, move...**
-1. **Authentication from strange places**
+1. **Authentication from unusual places**
 1. Is 2FA activated? Even with 2FA: is legacy authentication activated?
+1. Was the device (not the account) compromised?
 
 ![bg contrast:0.1 brightness:1.9](https://technofaq.org/wp-content/uploads/2019/08/word-image-31-600x378.png)
 
@@ -287,16 +316,6 @@ Most of the times, they even hide this emails. His objective is that the victim 
 
 # Prevention
 <!-- _class: lead -->
-
-## Identifying inbox compromise
-
--  Forwarding rules are one of the most common tactics observed in BEC investigations.
--  Identifying suspicious login activity is useful for assessing initial access and lateral movement. 
--  Permission changes on existing or newly created accounts often indicate the threat  actor established persistence, and could indicate the scope of an investigation is wider than initially assessed. 
-- Abusing OAuth applications or other vulnerabilities. 
-- Assessing which emails or data has been accessed and/or ex-filtrated is critical for  determining the impact on an organization, including but not limited to financial losses, privacy implications and reputational damages. 
-- Threat intelligence is an important part of the investigative process-
-- BEC intrusions are typically opportunistic and attribution is difficult.
 
 ## External confirmation
 
@@ -337,6 +356,14 @@ Bad news: PGP is rarely used in real life!
 
 > https://docs.deistercloud.com/mediaContent/Axional%20development%20libraries.20/Server%20side%20javascript.50/AX%20Library.10/crypt/media/PGP.png
 
+---
+
+![center](images/BEC/mailvelope.png)
+
+Tools: Mailvelope, Flowcrypt, KPGP...
+
+<!-- This is an example of mailvelope, a commertial solution for Gmail-->
+
 ## Protecting the channel, not the emails
 
 Protecting emails end-to-end is not going to happen in the near future
@@ -361,17 +388,46 @@ Image source: > https://statics.esputnik.com/photos/shares/Blog/images/AMP/image
 
 -->
 
-## Email protection: SPF
+## SPF
 
-Companies publish is their DNS the list of IP addresses of the servers allowed to send emails "from" the company
+Sender: the DNS includes the list of IP addresses of email servers allowed to send emails "from" the domain
 
 Receiver: check if the IP of the server that sent an email is authorized
 
-i.e.: you authenticate the email <someone@gmail.com> was sent from a server authorized by GMail
-
 ![bg right:60% w:100%](https://miro.medium.com/max/700/1*sfV9EFiQJ_1v7FWu9uvF8A.png)
 
-> https://medium.com/@pendraggon87/short-primer-on-spf-dkim-and-dmarc-9827eb2f359d
+> [Short Primer on SPF, DKIM, and DMARC](https://medium.com/@pendraggon87/short-primer-on-spf-dkim-and-dmarc-9827eb2f359d)
+> [SPF Records For ClickDimensions
+](https://support.clickdimensions.com/hc/en-us/articles/115001162874-SPF-Records-For-ClickDimensions)
+
+---
+
+![](images/BEC/dns-txt-universidadviu.jpg)
+
+<!--
+
+Tool in the screen: mxtoolbox
+
+Command line: dig universidadviu.com TXT
+
+-->
+
+---
+<!-- _class: with-warning -->
+
+```
+> dig universidadviu.TXT
+...
+universidadviu.com. TXT "v=spf1 mx ip4:5.57.227.88 include:spf.planeta.es include:_spf.explore-blue.com ~all"
+...
+```
+
+- Emails from `universidadviu.com` can be send from IP `5.57.227.88` and whatever is configured in `spf.planeta.es` or `_spf.explore-blue.com`
+- If you receive an email NOT from these IPs:
+    - `~all` means soft fail and `-all` means hard fail. Your email client might show warnings for soft fail and classify the email as spam for hard fails.
+    - `+all` means allow all mail to pass and `?all` means neutral. Not recommended, equivalent to not having SPF
+
+Notice SPF tells receivers what to do. SPF won't protect you, but your receivers
 
 ## Email protection: DomainKeys Identified Mail (DKIM)
 
@@ -395,35 +451,33 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=blackboard.com;
  s=sep2018; t=1670602715; bh=cS05YrQmiEH2S8VAGWK3wheZ287IPz+hfGXR1TsDY70=;
   h=Date:From:Subject:Reply-To; 
   b=gGHlf9eKK51Zw09JP98lOUgODgF61ZF7juJKDLjWLBxDDndvM8QMe4122XUO2wKgC
-	 4SkqQkabmXk66gUsKIge9Z2pjnabs9klfTgZcCT13wxAUsIQur4SIJ+8f3a1sBnGTT
-	 qSlMlB7ss5+0jIXVszWFtzkoHGPQ/UjVk9L24KGPwxRGyfGMI2JSgNHVWuP/61squO
-	 rpG03vHZxsGyegGuXYt4/AADov8yNL3KVGq42bGAb7XKgt8MrtZGWA8GR9iWYIm3V1
-	 6miGagayTXZANUbsdmtYtoPmxxdAuoOHiClnoXrdxhBFED8VrnhH8dMjd3ADZ1LaOA
-	 LVRFXW1djkSrg==
+    4SkqQkabmXk66gUsKIge9Z2pjnabs9klfTgZcCT13wxAUsIQur4SIJ+8f3a1sBnGTT
+    (...)
+    6miGagayTXZANUbsdmtYtoPmxxdAuoOHiClnoXrdxhBFED8VrnhH8dMjd3ADZ1LaOA
+    LVRFXW1djkSrg==
 ```
 
 - `d`: domain: `blackboard.com`
 - `s`: selector `sep2018`
-- `h`: headers fields: `Date:From:Subject:Reply-To;`.
+- `h`: headers fields: `Date:From:Subject:Reply-To;`
 - `bh`: body **hash**
-- `b`: **signature** of headers and body
+- `b`: `Base64(E_{RSA}(hash(Date:From:Subject:Reply-To:bh), DKIM_{key}))`
+
+<!-- El campo b es la firma digital -->
 
 ## Verification process
-<!-- _class: with-info -->
 
 - Get the body content, run canocalization algorithm `c`, calculate the hash value (`bh`). Check.
 - Concatenate the headers in `h` and the `dkim` header (removing `b` but not `bh`)
-- Download the server's public key from DNS using `d` and `s`
-- Check the signature
-
-Of course, there are libraries for this
+- Download the server's public key from DNS using `d` and `s` (next slide)
+- Validate the digital signature
 
 ---
 
 Digital signature:
 
 ```
-> dig backboard.com TXT
+> dig blackboard.com TXT
 ...
 blackboard.com.		28800	IN	TXT	"v=spf1 include:
 _netblocks.blackboard.com ...
@@ -509,10 +563,10 @@ Do not whitelist emails "from mycompany.com" if mycompany.com has not configured
 
 ## The bad news...
 
-- PGP is rarely used in real life... unfortunately
-- Not all companies implement SPF or DKIM, but this is changing very fast
+- PGP is rarely used in real life
+- Not all companies implement SPF or DKIM, but this is changing fast
 - These mechanisms do not protect against an email sent from `macdonalds.com`: the attackers can configure SPF and DKIM too!
-- These mechanisms only authenticate from the sending server to the receiving server!
+- SPF and DKIM only authenticate from the sending server to the receiving server! These technologies do not detect if a legitimate account is compromised
 
 <!--
 - Los malos pueden configurar también sus servidores
@@ -527,14 +581,16 @@ Do not whitelist emails "from mycompany.com" if mycompany.com has not configured
 
 <style scoped>
     ol { list-style-type: none;}
+    ol ul {margin-top: 1em;}
+    li li {width: 95%; margin-left: -1em;}
 </style>
 
-1. Admins:
+1. **Admins**:
     - Activate 2FA, disable legacy login
     - Activate mailbox auditing
     - Regularly, check rules
     - Train your users
-1. Users:
+1. **Users**:
     - Check the address of the other participant in the communication
     - Be careful if the address changes
     - Be careful if the language of the other participants change
