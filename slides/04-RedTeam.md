@@ -6,6 +6,13 @@ headingDivider: 2
 theme: marp-base
 ---
 <style>
+:root {
+    --main-color: #ff0000;
+    --darker-color: #661111;
+    --lighter-color: #87ebce;
+    --extra-back-color: rgb(175, 172, 172);
+}
+
 section.a-story ul li {
     list-style-type: none;
     text-align: center;
