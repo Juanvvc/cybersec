@@ -467,7 +467,7 @@ OSCP|2,798|>1000 €
 
 
 - Risk Assessment
-- Splunk / QRadar / Elastic
+- Technical: Splunk / QRadar / Elastic
 - Digital Forensics
 - Penetration Testing
 - Team work and collaboration
@@ -476,7 +476,6 @@ OSCP|2,798|>1000 €
 - Customer service skills: empathy
 - **Very effective communication**
 - Technical writing skills
-- Research and independent learning
 
 Soft skills are as important than technical skills!
 
@@ -512,31 +511,43 @@ Posit: InfoSec is such a large field there are areas where past experience is un
 -->
 
 ## Burn-out syndrome
-
-Cybersec is very demanding:
+<!-- _class: with-warning -->
 
 - Dealing with attackers
-- Dealing with clients
-- Dealing with IT
+- Dealing with clients: they want fast results
+- Dealing with IT: we make trouble
+- Dealing with CFO: we are expensive
 - New techniques and vuls every week
 - Tons of different tools to learn
-- Up to date information is not always accesible
 - Attacks are usually at night or during the weekends
-- This is a war and we are not winning
 
 ![bg left:30%](images/careers/burnout.jpg)
+
+You will suffer this!
 
 > https://www.securitymagazine.com/blogs/14-security-blog/post/93890-five-tips-to-avoid-cybersecurity-burnout
 > https://www.zdnet.com/article/cybersecurity-is-tough-work-so-beware-of-burnout/
 > https://www.securew2.com/blog/combating-burnout-in-cybersecurity
+> https://www.reddit.com/r/cybersecurity/comments/1fokmwn/regarding_burnout_understanding_why_is_paramount/
 
 <!--
 Image: https://www.securew2.com/wp-content/uploads/2020/03/how-to-prevent-workplace-burnout-on-your-team.png
+
+You will suffer this. Be vigilant!
 -->
 
 ## Imposter syndrome
+<!-- _class: with-warning -->
 
-![center w:25em](images/careers/imposter.png)
+![bg left](images/careers/imposter.png)
+
+- Tons of complex tools
+- Constantly changing environments
+- New techniques and vuls every week
+- Successful attackers will use something you was not aware of
+
+You will suffer this!
+
 
 > https://www.defeatingepilepsy.org/living-with-epilepsy-series/imposter-syndrome/
 > https://news.wecyberup.org/cy-says-blog/overcoming-imposter-syndrome-in-cybersecurity
@@ -544,13 +555,14 @@ Image: https://www.securew2.com/wp-content/uploads/2020/03/how-to-prevent-workpl
 
 ## Take care of yourself
 
+- Identify the symptons of stress, overwork and burnout
 - Use automation and reduce daily scanning
 - Take breaks away from your computer
 - Go outside often
 - Don't bite more than you can chew
 - Take a vacation
 - Seek professional help
-- Learn new tools and teach
+- Learn new things and teach them
 
 <!--
 Current cybersecurity is a complex and huge field. You are not expected to know every small detail about all systems or every possible technique, not only because the unfathomable amount of information but also because this knowledge will be outdated in months. Aiming to complete knowledge will be a source of stress and frustration. Please, check the links in the first session or search for "occupational burnout syndrome", "SOC analyst burnout", and "impostor syndrome". I truly believe that learning about these syndromes is going to be very useful for you or for the people you will lead in the future.

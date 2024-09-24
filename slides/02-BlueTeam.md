@@ -197,14 +197,14 @@ All systems are vulnerable
 
 ## How to protect an endpoint?
 
+![center w:20em](images/SOC/edr-av.png)
+
 - Default system tools
 - Enhanced system tools
 - Antivirus
 - Endpoint detection and response (EDR)
 
-![bg right](https://tecnologia21.com/wp-content/uploads/2007/10/antivirus.jpg)
-
-## Sources of information in an endpoint
+## Sources of information
 <!-- _class: smaller-font -->
 
 - System logs
@@ -221,7 +221,7 @@ All systems are vulnerable
     - Windows: ?
 - RAM, filesystem...
 
-![bg right:40% width:80%](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f35244de8548f64/5e4c520ad2c9672988fc1986/windows-artifact-poster.jpg)
+![bg right:40% heigth:100%](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f35244de8548f64/5e4c520ad2c9672988fc1986/windows-artifact-poster.jpg)
 
 > https://www.sans.org/blog/new-windows-forensics-evidence-of-poster-released/
 
