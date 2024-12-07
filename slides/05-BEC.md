@@ -608,6 +608,7 @@ Do not whitelist emails "from mycompany.com" if mycompany.com has not configured
 - [Phishing investigation](https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-phishing) - Microsoft 2023
 - [Anatomy of a Business Email Compromise Investigation](https://www.magnetforensics.com/blog/anatomy-of-a-business-email-compromise-investigation/?utm_source=Pardot&utm_medium=Email&utm_campaign=2021_MonthlyNewsletterDecember) - Magnet Forensics 2021
 - [Awesome-BEC: repository of information](https://github.com/randomaccess3/Awesome-BEC/blob/main/README.md)
+- [¡Que no te la líen con un BEC!](https://www.youtube.com/watch?v=LviLZP3kQDQ&list=PLoWTLhDgfllKB6WqUqFNXWJW3oNHdzFUC&index=9) Lorenzo Martínez, DanaCON 2024
 
 # Thanks!
 <!-- _class: last-slide -->

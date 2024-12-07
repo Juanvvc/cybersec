@@ -63,9 +63,9 @@ Being a criminal is not that hard, you only need money to buy the right tools. A
 
 ---
 
-![center w:40em](https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/Fig1-RaaS-affiliate-model-3-1024x496.png)
+![center w:40em](images/attackers/ms-attackers.png)
 
-> https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/
+> [Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself](https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/) By Microsoft Threat Intelligence
 
 ## Advanced Persistent Threat Groups
 
@@ -212,6 +212,8 @@ The linked document is a great summary for the incidents in 2021 and 2022
 - **Affiliates**: distributors of the malware, they buy/rent/hire the lockers and the access brokers
 - **Access brokers**: initial access to a company
 
+> [The fascinating security model of dark web marketplaces](https://boehs.org/node/dark-web-security)
+
 ## Triple extortion mechanism
 
 1. **Lockers**: "*Pay us if you want your files decrypted*"
@@ -239,7 +241,7 @@ The linked document is a great summary for the incidents in 2021 and 2022
     - focus on develpment
     - steady stram of new victims by letting others launch their campaigns
 
-## Requirenments
+## Requirements
 
 - Cartel, affiliate partnetship
 - Collaboration
