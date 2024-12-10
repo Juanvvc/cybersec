@@ -28,11 +28,11 @@ Juan Vera del Campo - <juanvvc@gmail.com>
 # Contents
 <!-- _class: cool-list toc -->
 
-1. [Business Email Compromise (BEC)](#4)
-1. [Types of Business Email Compromise (BEC)](#13)
-1. [Investigating a BEC](#22)
-1. [Prevention](#31)
-1. [References](#50)
+1. [Business Email Compromise (BEC)](#3)
+1. [Types of Business Email Compromise (BEC)](#12)
+1. [Investigating a BEC](#21)
+1. [Prevention](#32)
+1. [References](#52)
 
 # Business Email Compromise (BEC)
 <!-- _class: lead -->
@@ -88,22 +88,26 @@ Your boss
 
 Do you believe you would never fall for this?
 
-* ['CEO Spoofing' costs drug company $50 million](https://www.fox9.com/news/ceo-spoofing-costs-drug-company-50-million), 2015
-* [Hackers siphon $47 million out of tech company's accounts](https://www.fox9.com/news/ceo-spoofing-costs-drug-company-50-million), 2015
-* [Unusual CEO Fraud via Deepfake Audio Steals US$243,000 From UK Company](https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/unusual-ceo-fraud-via-deepfake-audio-steals-us-243-000-from-u-k-company), 2019
-* [Un mail, una llamada y 4 millones robados a la EMT de València que volaron a Hong Kong: así fue el 'fraude del CEO' más salvaje de España ](https://www.eldiario.es/comunitat-valenciana/llamada-fabulosa-millones-emt-valencia_1_1243386.html), 2019
-* [460,242 euro invoice due to pay to the Bilbao Club](https://www.majorcadailybulletin.com/news/local/2021/12/10/94245/mallorca-crime-alleged-ceo-scam-spain.html), 2021
-* [Social engineering. CEO fraud of 9 million euros in the phishing scam to the biopharmaceutical company Zendal](https://kymatio.com/en/social-engineering-ceo-fraud-of-9-million-euros-in-the-phishing-scam-to-the-biopharmaceutical-company-zendal/), 2020.
-* Most of them are covered up by the companies and never hit the news
+- [Lithuanian Man Sentenced To 5 Years In Prison For Theft Of Over $120 Million In Fraudulent Business Email Compromise Scheme](https://www.justice.gov/usao-sdny/pr/lithuanian-man-sentenced-5-years-prison-theft-over-120-million-fraudulent-business), Google and Facebook, 2013-2015
+- ['CEO Spoofing' costs drug company $50 million](https://www.fox9.com/news/ceo-spoofing-costs-drug-company-50-million), 2015
+- [Hackers siphon $47 million out of tech company's accounts](https://www.fox9.com/news/ceo-spoofing-costs-drug-company-50-million), 2015
+- [Unusual CEO Fraud via Deepfake Audio Steals US$243,000 From UK Company](https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/unusual-ceo-fraud-via-deepfake-audio-steals-us-243-000-from-u-k-company), 2019
+- [Un mail, una llamada y 4 millones robados a la EMT de València que volaron a Hong Kong: así fue el 'fraude del CEO' más salvaje de España ](https://www.eldiario.es/comunitat-valenciana/llamada-fabulosa-millones-emt-valencia_1_1243386.html), 2019
+- [Social engineering. CEO fraud of 9 million euros in the phishing scam to the biopharmaceutical company Zendal](https://kymatio.com/en/social-engineering-ceo-fraud-of-9-million-euros-in-the-phishing-scam-to-the-biopharmaceutical-company-zendal/), 2020.
+- [460,242 euro invoice due to pay to the Bilbao Club](https://www.majorcadailybulletin.com/news/local/2021/12/10/94245/mallorca-crime-alleged-ceo-scam-spain.html), 2021
+
+Most of them are covered up by the companies and never hit the news
 
 ---
 
 ![center w:40em](images/BEC/stats2024-1.png)
 
+> https://abnormalsecurity.com/blog/bec-vec-attacks
+
 ---
 <!-- _class: with-warning -->
 
-![center w:35em](images/BEC/stats2024-2.png)
+![center w:30em](images/BEC/stats2024-2.png)
 
 If you work for a large company, you are receiving BEC attacks
 
@@ -128,12 +132,11 @@ There is movie about his life: Je Compte sur Vous
 
 ---
 
-- **The Bogus Invoice Scheme**: attackers pretend to be suppliers requesting fund transfers for payments to an account owned by fraudsters
-- **CEO Fraud**: Attackers pose as the company CEO or any executive and send an email to employees in finance, requesting them to transfer money to the account they control
+- [**The Bogus Invoice Scheme**](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/business-email-compromise-bec-schemes): attackers pretend to be suppliers requesting payments to an account owned by fraudsters
+- [**CEO Fraud**](https://www.knowbe4.com/ceo-fraud): Attackers pose as the company CEO or any executive, requesting them to "urgent and silently" transfer money to the account they control
 - **Account Compromise**: An executive or employee's email account is hacked and used to request invoice payments to vendors listed in their email contacts
 - **Attorney Impersonation**: Attackers pretend to be a lawyer or someone from the law firm supposedly in charge of crucial and confidential matters
-- **Data Theft**: Employees in HR and book-keeping are targeted to obtain personally identifiable information (PII) or tax statements of employees and executives
-- **Send me the money**: Attackers pretend to be an employee that just changed the bank account, and request the next payment to be done in the new bank account
+- [**Pay-roll fraud**](https://www.proofpoint.com/us/blog/cybersecurity-essentials/understanding-bec-scams-payroll-diversion): Attackers pretend to be an employee that just changed the bank account, and request the next payroll payment to be done in the new bank account
 
 > https://www.trendmicro.com/vinfo/us/security/definition/business-email-compromise-(bec)
 
@@ -147,8 +150,8 @@ There is movie about his life: Je Compte sur Vous
 
 - The attacker impersonates a party sending a series of spoofed emails
     - Usually implies previous compromise to gain intelligence
-- The first email may be from a legitimate **email address**
-    - ... but not necessarily a legitimate **email server** 
+- The first email may be from a legit **email address**
+    - ... but not necessarily a legit **email server** 
 - `Reply-to` is changed
 - Addresses similar to real ones to distinguish themselves:
     - `worker@bigconnpany.com` instead of `worker@bigcompany.com`
@@ -227,7 +230,7 @@ Some acting is usually involved. Someone might call you!
 ![center](images/BEC/bec6.png)
 
 - These fake extortions may include personal information collected from public sources!
-- The sender could be your own account to "prove" it as hacked
+- The sender could be your own account to "prove" it was hacked
 
 # Investigating a BEC
 <!-- _class: lead -->
@@ -243,14 +246,14 @@ Some acting is usually involved. Someone might call you!
 
 ## Objectives of the investigation
 
-- Are we compromised, or is it the other side of the communications?
+- Are we compromised, or was it the other side of the communications?
 - When did the intrusion begin?
-- How long did the threat actor maintain access?
+- For how long did the threat actor maintain access?
 - What did the threat actor learned?
 - Is the actor still inside?
 - Is someone internal involved? 
 - How to prevent future attacks?
-- Insurance: how is at fault?
+- Insurance: who is at fault?
 
 > These are only an introduction for this presentation. Check: https://raw.githubusercontent.com/PwC-IR/Business-Email-Compromise-Guide/main/PwC-Business_Email_Compromise-Guide.pdf
 
@@ -278,9 +281,21 @@ How did the attacker know it was the right moment?
 
 A BEC attack usually begins as a phishing attack, and inboxes are controlled since long before the detection
 
+## Entry points for attackers:
+
+- Phishing emails to get credentials
+- 2FA attacks / social engineering
+- Old protocols that do not support 2FA
+- [InfoStealers](https://en.wikipedia.org/wiki/Infostealer) (virus)
+- Direct modification of emails!
+- Internal help!
+
 ## Identifying inbox compromise
 
-- Check for unexpected Automatic Forwarding rules
+- Check for unexpected rules:
+    - Rules to forward emails to another account
+    - Rules to move emails out of the inbox
+    - Rules to delete emails
 - Identifying suspicious login activity
 - Permission changes on existing or newly created accounts
 - Assessing which emails or data has been accessed and/or ex-filtrated is critical for  determining the impact on an organization
@@ -314,8 +329,32 @@ Most of the times, they even hide this emails. His objective is that the victim 
 
 > https://answers.microsoft.com/en-us/msoffice/forum/all/office-365-admin-portal-logs/70ca8227-0c69-408f-a2c3-e2c8a8cadfb5
 
+## Fake documents
+
+Attackers may use fake documents to "prove" their claims
+
+- Old invoices, modified with fake data
+- "Digitally/Hand signed documents", that are actually not signed
+- Fake "Bank certificates"
+
+![bg right](images/BEC/digitally-signed.pdf.png)
+
+<!--
+Notice: you MUST check digital signatures, is not not enough to see them: they can be a drawing!
+-->
+
 # Prevention
 <!-- _class: lead -->
+
+## Best prevention: awareness!
+
+- Train your users to identify BEC attacks, specially HR and finance
+- Set up a process to validate changes of bank account for suppliers/clients/employees
+    - Request (and check!) official documents
+    - Validate a request with a trusted contact
+- Tell your bank to check the identity of international money transfers
+
+![bg left](images/BEC/training.png)
 
 ## External confirmation
 
@@ -344,7 +383,7 @@ BlueLiv is a company from Barcelona specialized in Threat Intelligence. If I'm n
 -->
 
 
-## Signing / encypting emails: PGP
+## Signing / encrypting emails: PGP
 
 Your contacts send their public keys to you manually. All communications from a contact must be signed using one of the accepted keys.
 
@@ -390,7 +429,7 @@ Image source: > https://statics.esputnik.com/photos/shares/Blog/images/AMP/image
 
 ## SPF
 
-Sender: the DNS includes the list of IP addresses of email servers allowed to send emails "from" the domain
+Sender: the DNS includes **the list of IP addresses of email servers** allowed to send emails "from" the domain
 
 Receiver: check if the IP of the server that sent an email is authorized
 
@@ -463,7 +502,7 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=blackboard.com;
 - `bh`: body **hash**
 - `b`: `Base64(E_{RSA}(hash(Date:From:Subject:Reply-To:bh), DKIM_{key}))`
 
-<!-- El campo b es la firma digital -->
+<!-- "b" is the digital signature -->
 
 ## Verification process
 
@@ -513,10 +552,10 @@ X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
         h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
         bh=s7gErmNKwESPKSP6VW9kvRoEY/oQ8b6V1OFgRMqAjtU=;
         b=lB+wgPGej/d1HNLxj7oP1L9Mi56hwji5GA3hLrVYCRKohiAs3L7uI6fEq7sp7wBXKm
-         9mOGnbIrSXMeOfOa/YnAnJg/4x6U5gvVtoisigFMR/bGxoPQRO6LUqvunBhR3il6f+OX
+         9mOGnbIrSXMeOfOa/YnAnJgsmall/4x6U5gvVtoisigFMR/bGxoPQRO6LUqvunBhR3il6f+OX
          ZRJIsZsvigsesD1vZcarlVr5D0QL2Cw2l1o1T6zVNH3Z8cmZNTCpfzmD3YmVCm+Cgdz9
          RQgX/iL12TxzzOmx+8yInGYnL9ZyaNY6Wsbi7LOBp7kRNLWrMKVtUlwuS2WSzQ5Jvwkm
-         0SZ90S524hBquiF8WAzJI95AD/L5fr69sjaN/wM6pk8l6fTapm8+K6TsMPYrEhHtRFZ2
+         0SZ90S524hBquiF8WAzsmallJI95AD/L5fr69sjaN/wM6pk8l6fTapm8+K6TsMPYrEhHtRFZ2
          vLYQ==
 ```
 
@@ -566,7 +605,7 @@ Do not whitelist emails "from mycompany.com" if mycompany.com has not configured
 - PGP is rarely used in real life
 - Not all companies implement SPF or DKIM, but this is changing fast
 - These mechanisms do not protect against an email sent from `macdonalds.com`: the attackers can configure SPF and DKIM too!
-- SPF and DKIM only authenticate from the sending server to the receiving server! These technologies do not detect if a legitimate account is compromised
+- SPF and DKIM only authenticate from the sending server to the receiving server! These technologies do not detect if a legit account is compromised
 
 <!--
 - Los malos pueden configurar también sus servidores
@@ -580,17 +619,17 @@ Do not whitelist emails "from mycompany.com" if mycompany.com has not configured
 <!-- _class: two-columns-list -->
 
 <style scoped>
-    ol { list-style-type: none;}
-    ol ul {margin-top: 1em;}
-    li li {width: 95%; margin-left: -1em;}
+    ol { list-style-type: none}
+    li ul { margin-top: 1em;}
+    li li { margin-left: -1em; ; width: 95%; }
 </style>
 
-1. **Admins**:
-    - Activate 2FA, disable legacy login
-    - Activate mailbox auditing
-    - Regularly, check rules
+1. **Admins**
+    - Enable 2FA, disable legacy login
+    - Enable mailbox auditing
+    - Regularly, check automatic rules
     - Train your users
-1. **Users**:
+1. **Users**
     - Check the address of the other participant in the communication
     - Be careful if the address changes
     - Be careful if the language of the other participants change
@@ -604,7 +643,7 @@ Do not whitelist emails "from mycompany.com" if mycompany.com has not configured
 
 - [What is Business Email Compromise (BEC)? How Does it Work? ](https://www.tessian.com/blog/bec-business-email-compromise/), Tessian 2021
 - [Business Email Compromise](https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/business-email-compromise) FBI 
-- [Business Email Compromise Guide for O365](https://github.com/PwC-IR/Business-Email-Compromise-Guide) - PwC 2021
+- [Business Email Compromise Guide for O365](https://github.com/PwC-IR/Business-Email-Compromise-Guide/tree/main) - PwC 2021
 - [Phishing investigation](https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-phishing) - Microsoft 2023
 - [Anatomy of a Business Email Compromise Investigation](https://www.magnetforensics.com/blog/anatomy-of-a-business-email-compromise-investigation/?utm_source=Pardot&utm_medium=Email&utm_campaign=2021_MonthlyNewsletterDecember) - Magnet Forensics 2021
 - [Awesome-BEC: repository of information](https://github.com/randomaccess3/Awesome-BEC/blob/main/README.md)

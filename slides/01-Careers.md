@@ -564,6 +564,8 @@ You will suffer this!
 - Seek professional help
 - Learn new things and teach them
 
+> [Understanding Digital Forensics Mental Health Stressors: Burnout And Insufficient Mental Health Support](https://www.forensicfocus.com/articles/understanding-digital-forensics-mental-health-stressors-burnout-and-insufficient-mental-health-support/), Forensic Focus, December 2024
+
 <!--
 Current cybersecurity is a complex and huge field. You are not expected to know every small detail about all systems or every possible technique, not only because the unfathomable amount of information but also because this knowledge will be outdated in months. Aiming to complete knowledge will be a source of stress and frustration. Please, check the links in the first session or search for "occupational burnout syndrome", "SOC analyst burnout", and "impostor syndrome". I truly believe that learning about these syndromes is going to be very useful for you or for the people you will lead in the future.
 
