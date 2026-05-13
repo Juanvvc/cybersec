@@ -26,8 +26,10 @@ Juan Vera - juanvvc@gmail.com
 <!-- _class: cool-list toc -->
 
 1. [What is cybersecurity?](#3)
-1. [Cybersecurity domains and roles](#8)
-1. [A cybersecurity career](#21)
+1. [Cybersecurity Domains and Roles](#8)
+1. [A Cybersecurity Career](#21)
+1. [Mental Health](#30)
+1. [Summary and References](#36)
 
 # What is cybersecurity?
 <!-- _class: lead -->
@@ -115,7 +117,7 @@ The videos show something very similar to an incident response event like the on
 These are only some roles: preparing systems, filtering out data, monitoring, responding to incidents... Even the attackers are another role that must be taken into consideration. Let's see these roles in more detail
 -->
 
-# Cybersecurity domains and roles
+# Cybersecurity Domains and Roles
 <!-- _class: lead -->
 
 ![bg left:30%](images/careers/kevin-mitnick4.jpg)
@@ -386,7 +388,7 @@ You will be a specialist in one of these roles, but your day to day work probabl
 -->
 
 
-# A cybersecurity career
+# A Cybersecurity Career
 <!-- _class: lead -->
 
 ---
@@ -510,6 +512,9 @@ Posit: InfoSec is such a large field there are areas where past experience is un
 > https://googleprojectzero.blogspot.com/2021/02/deja-vu-lnerability.html
 -->
 
+# Mental Health
+<!-- _class: lead -->
+
 ## Burn-out syndrome
 <!-- _class: with-warning -->
 
@@ -543,8 +548,8 @@ You will suffer this. Be vigilant!
 
 - Tons of complex tools
 - Constantly changing environments
-- New techniques and vuls every week
-- Successful attackers will use something you was not aware of
+- New technologies, new attacks
+- Successful attackers will exploit some service you were not aware of
 
 You will suffer this!
 
@@ -555,13 +560,13 @@ You will suffer this!
 
 ## Drivers of cybersecurity burn out
 
-- Hero Complex ("Only I can solve this...")
-- Peer Pressure ("My team is always working, so I should be too...")
-- Moral Highroads ("Staying up all night patching these systems is the right thing to do...")
-- Service Hoarding ("If this fails, I will look bad...")
-- Workload Management ("I have a pile of work to do and must complete it...")
-- False Rewards ("By working longer than everyone else, I'll get promoted...")
-- Always-on Mentality ("The second I'm not watching, that's when it goes bad...")
+- Hero Complex: "only I can solve this..."
+- Peer Pressure: "my team is always working, so I should be too..."
+- Moral Highroads: "Staying up all night patching these systems is the right thing to do..."
+- Service Hoarding: "If this fails, I will look bad..."
+- Workload Management: "I have a pile of work to do and must complete it..."
+- False Rewards: "by working longer than everyone else, I'll get promoted..."
+- Always-on Mentality: "the second I'm not watching, that's when it goes bad..."
 
 
 > https://www.reddit.com/r/cybersecurity/comments/z68ppz/comment/iy0xsl8/
@@ -572,21 +577,41 @@ Current cybersecurity is a complex and huge field. You are not expected to know 
 
 On the contrary, you are expected to know about how to search information about current attacks, have high analytical skills, being able to prioritize the relevant leads among all the possible evidences and efficiently communicate your findings. You are most probably going to be specialized on a specific path (red, blue, incidents, forensics...), but the specialization will come naturally after some time in the field, probably years.
 
-You are not going to be alone. You are going to be part of a team that will teach and will mentor you. Gathering a security team inside a large company, or creating a small company to offer security services to some big companies, is very similar to gathering a group in a RPG game: you need a soldier, a magician, and a thief; i.e., you need someone specialized in blue, a forensic analyst and a red. Like in a RPG game, you begin as a low level character and you will gain knowledge and experience learning from other team members, earning some certification (1st session), playing CTFs (3rd session) or during real battles against the bad guys. You'll spend more time in the lab, writing reports or attending a brainstorming meeting than running commands.
+-->
+
+## Event fatigue
+
+![bg left:30% h:100%](images/careers/events.gif)
+
+- Many alerts every day
+- Most of them are false positive
+- Separate the chaff from the wheat
+- You won't understand the details of many alerts
+- The bad actors know how to hide
+
+> https://www.proofpoint.com/us/threat-reference/alert-fatigue
+> https://www.ibm.com/think/topics/alert-fatigue
+
+## How to combat these symptons
 
 - Identify the symptons of stress, overwork and burnout
 - Use automation and reduce daily scanning
-- Take breaks away from your computer
 - Go outside often
-- Don't bite more than you can chew
 - Take a vacation
 - Seek professional help
-- Learn new things and teach them
+- You can't be an expert on everything
+- You are part of a team, not the whole team
 
-Check, for example, all comments in this thread in twitter: https://twitter.com/TinkerSec/status/1423864769271017476
+> Free course: [Mental Health in Cybersecurity](https://www.securityblue.team/courses/mental-health-in-cybersecurity)
 
-There are lots of things to do in cybersecurity and these sessions are just presenting the huge oportunities to you.
+<!--
+
+You are not going to be alone. You are going to be part of a team that will teach and will mentor you. Gathering a security team inside a large company, or creating a small company to offer security services to some big companies, is very similar to gathering a group in a RPG game: you need a soldier, a magician, and a thief; i.e., you need someone specialized in blue, a forensic analyst and a red. Like in a RPG game, you begin as a low level character and you will gain knowledge and experience learning from other team members, earning some certification (1st session), playing CTFs (3rd session) or during real battles against the bad guys. You'll spend more time in the lab, writing reports or attending a brainstorming meeting than running commands.
+
 -->
+
+# Summary and References
+<!-- _class: lead -->
 
 ## Choose a career
 <!-- _class: cool-list -->
@@ -597,12 +622,6 @@ There are lots of things to do in cybersecurity and these sessions are just pres
 4. *Create a list of companies*
 5. *Keep learning and exploring*
 6. *Jump between positions when necessary*
-
-## Cybersecurity Companies operating in Catalonia
-
-[![center w:26em](images/actors/catalunya.png)](https://ciberseguretat.gencat.cat/es/detalls/noticia/La-Ciberseguretat-a-Catalunya-2020.-Informe-de-ACCIO-y-la-Agencia-de-Ciberseguretat-de-Catalunya)
-
-> https://ciberseguretat.gencat.cat/es/detalls/noticia/La-Ciberseguretat-a-Catalunya-2020.-Informe-de-ACCIO-y-la-Agencia-de-Ciberseguretat-de-Catalunya
 
 # References
 
